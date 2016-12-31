@@ -1,10 +1,7 @@
 @import "rouge-base16-dark";
 
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
 $gray: #666;
-$lightGray: #eee;
+$lightGray: #b5e853;
 $white: #fff;
 
 body {
@@ -271,7 +268,7 @@ a {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px dashed #b5e853;
 }
 
 .posts > .post:last-child {
@@ -280,15 +277,6 @@ a {
 }
 
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
   .comments {
     margin-top: 10px;
   }
@@ -307,6 +295,7 @@ a {
 footer {
   padding: 20px 0;
   text-align: center;
+  border-bottom: 1px dashed #b5e853;
 }
 
 @import "svg-icons";
