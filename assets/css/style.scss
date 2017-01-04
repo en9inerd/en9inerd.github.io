@@ -1,0 +1,41 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.comments {
+  margin-top: 10px;
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px dashed #b5e853;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+@import "svg-icons";
