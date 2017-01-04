@@ -3,6 +3,24 @@
 
 @import "{{ site.theme }}";
 
+header h1 {
+  a {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+.btn-cv .icon {
+  opacity: 0.6;
+  background: url("../images/cv.png") 0 0 no-repeat;
+}
+
+.btn-projects .icon {
+  opacity: 0.6;
+  background: url("../images/projects.png") 0 0 no-repeat;
+}
+
 .comments {
   margin-top: 10px;
 }
@@ -36,6 +54,7 @@
 footer {
   padding: 20px 0;
   text-align: center;
+  border-top: 1px dashed #b5e853;
 }
 
 @import "svg-icons";
