@@ -21,6 +21,8 @@
             <a href="{{ site.baseurl }}/about" class="btn">About</a>
             <a href="{{ site.baseurl }}/projects" class="btn">Projects</a>
           {% endif %}
+          <a href="{{ site.baseurl }}/tags" class="btn">Tags</a>
+          <a href="{{ site.baseurl }}/categories" class="btn">Categories</a>
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
@@ -31,12 +33,9 @@
         {{ content }}
       </section>
     </div>
-
-    <div class="container">
-      <footer class="footer">
-        {% include svg-icons.html %}
-      </footer>
-    </div>
+    <footer class="footer">
+      {% include svg-icons.html %}
+    </footer>
 
       <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
 

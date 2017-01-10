@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
+permalink: /about/
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
@@ -122,4 +123,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-{% include disqus.html %}

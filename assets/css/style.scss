@@ -3,12 +3,33 @@
 
 @import "{{ site.theme }}";
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 header h1 {
   a {
     text-decoration: none;
     color: inherit;
     text-shadow: inherit;
   }
+}
+
+.inline {
+  display: inline;
+  padding-right: 10px;
 }
 
 .btn-cv .icon {
@@ -27,6 +48,7 @@ header h1 {
 
 .posts > .post {
   padding-bottom: 2em;
+  margin-bottom: 1em;
   border-bottom: 1px dashed #b5e853;
 }
 
@@ -40,9 +62,13 @@ header h1 {
     margin-top: 10px;
   }
 
+  .post-footer {
+    text-align: right;
+  }
+
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -51,10 +77,21 @@ header h1 {
   color: #666;
 }
 
+.pagination {
+  padding: 20px;
+  text-align: center;
+  border: 1px dashed #b5e853;
+  color: #b5e853;
+  a {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
-  border-top: 1px dashed #b5e853;
 }
 
 @import "svg-icons";

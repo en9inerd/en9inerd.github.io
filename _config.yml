@@ -11,7 +11,7 @@ description: MIET-Developer
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/18351400
 
-author:
+author: Vladimir L
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -36,6 +36,10 @@ disqus: pogromist-io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-66941010-2 
+
+paginate: 5
+
+excerpt_separator: <!--more-->
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
