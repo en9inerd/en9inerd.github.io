@@ -3,12 +3,12 @@ layput: post
 title: "My first post"
 date: 2017-01-12 23:58 -05:00
 category: plans
-tags: [coursera, laerning]
+tags: [coursera, learning]
 ---
 
 Hello everyone!
 
-I don't have a job and a lot of experience related to my strength skills (like  C/C++, Python, Algorithms in VLSI Physical design), I need to gain more experience. And I used other programming languages only during university. Also, I have language barrier (reason of many failures) :-(  
+I don't have a job and a lot of my experience was related to my strength skills (like  C/C++, Python, Algorithms in VLSI Physical design), I need to gain more experience. And I used other programming languages only during university. Also, I have language barrier (reason of many failures) :disappointed:  
 Thus, I have problems with employment in USA.  
 Therefore, I decided:
 
