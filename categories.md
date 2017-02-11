@@ -5,16 +5,16 @@ title: Categories
 
 <div>
   <h4 class="inline">~/</h4>
-  {% for tag in site.categories %}
-  <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+  {% for category in site.categories %}
+  <a href="#{{ category[0] | slugify }}">{{ category[0] }}</a>
   {% endfor %}
 </div>
 <hr/>
 <div>
-  {% for tag in site.categories %}
-  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+  {% for category in site.categories %}
+  <h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
   <ul>
-    {% for post in tag[1] %}
+    {% for post in category[1] %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">
       {{ post.title }}
