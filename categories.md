@@ -4,15 +4,17 @@ title: Categories
 ---
 
 <div>
-  <h4 class="inline">~/</h4>
+  <span class="pre-post">~/ [
   {% for category in site.categories %}
-  <a href="#{{ category[0] | slugify }}">{{ category[0] }}</a>
+  <a href="#{{ category[0] | slugify: 'pretty' }}">{{ category[0] }}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
+  ]
+  </span>
 </div>
 <hr/>
 <div>
   {% for category in site.categories %}
-  <h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
+  <h2 id="{{ category[0] | slugify: 'pretty' }}">{{ category[0] }}</h2>
   <ul>
     {% for post in category[1] %}
     <li>

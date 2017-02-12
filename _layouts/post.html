@@ -4,21 +4,25 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-  <h4 class="inline">Category ~/</h4>
+  <span class="pre-post">Category ~/ [
     <a href="{{ site.baseurl }}/categories#{{ page.category }}" class="post-tag">{{ page.category }}</a>
+    ]
     <br>
+  </span>
   {% if page.tags %}
-  <h4 class="inline">Tags |--></h4>
+  <span class="pre-post">Tags |--> [
   {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+    <a href="{{ site.baseurl }}/tags#{{ tag | slugify: 'pretty' }}" class="post-tag">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
+  ]
+  </span>
   {% endif %}
   <div class="entry">
     {{ content }}
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on {{ page.date | date: "%B %e, %Y at %R %Z" }}
   </div>
 
   {% include disqus.html %}

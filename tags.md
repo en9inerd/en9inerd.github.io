@@ -4,15 +4,17 @@ title: Tags
 ---
 
 <div>
-  <h4 class="inline">|--></h4>
+  <span class="pre-post">|--> [
   {% for tag in site.tags %}
-  <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+  <a href="#{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}
+  ]
+  </span>
 </div>
 <hr/>
 <div>
   {% for tag in site.tags %}
-  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+  <h2 id="{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }}</h2>
   <ul>
     {% for post in tag[1] %}
     <li>
