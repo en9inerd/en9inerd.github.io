@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_SE.pdf) and send me a DM on LinkedIn.
+> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_VL.pdf) and send me a DM on LinkedIn.
 
 {:refdef: style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
