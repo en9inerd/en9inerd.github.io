@@ -16,8 +16,8 @@ Therefore, I decided:
 - reimplement my master's diploma project (SimAn);
 - grow my rating on HackerRank;
 - finish couple of courses on Сoursera. I will try to follow every step of the Coursera courses. I took following courses at the moment:  
-  - [Python for everybody (University of Michigan)](https://www.coursera.org/learn/python)  
-Taught by: Charles Severance (Associate Professor)  
+  - [Machine Learning (Stanford University)](https://www.coursera.org/learn/machine-learning)  
+Taught by: Andrew Ng (Associate Professor)  
   - [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)  
 Taught by: Robert Sedgewick (Professor) and Kevin Wayne (Senior Lecturer)
 - write this blog.
