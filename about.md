@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_VL.pdf) and send me a DM on LinkedIn.
+> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_VL.pdf) and send me email or a DM on LinkedIn.
 
 {:refdef: style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
 {: refdef}
 
-My name is Vladimir, I am a graduate student with a Master of Science Degree in Computer Science and Engineering, I received this degree in Russia. My interests are related to automation, front-end development, system administration, and learning new technologies. Right now I live in Washington DC, USA.
+My name is Vladimir, I am a graduate student with a Master of Science Degree in Computer Science and Engineering, I received this degree in Russia. My interests are related to automation, front/back-end development, system administration, and learning new technologies. Right now I live in Washington DC, USA.
 
 ## Why This Blog
 

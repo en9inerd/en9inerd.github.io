@@ -13,7 +13,7 @@ author: Vladimir L
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: vladimir@pogromist.io
   facebook:
   flickr:
   github: p0gr0mist
@@ -40,7 +40,7 @@ disqus: pogromist-io
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-66941010-2 
 
-paginate: 10
+paginate: 5
 
 excerpt_separator: <!--more-->
 
@@ -58,6 +58,8 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 show_downloads: false
+
+timezone: America/New_York
 
 # Set the Sass partials directory, as we're using @imports
 # sass:
