@@ -14,4 +14,5 @@ My name is Vladimir, I am a graduate student with a Master of Science Degree in 
 
 ## Why This Blog
 
-This blog is a summary of my learning process of different algorithms and data structures. It also serves the purpose of helping people with similar issues that I had and practice my written English.
+This blog is a summary of my learning process of different algorithms and data structures. It also serves the purpose of helping people with similar issues that I had and practice my written English. 
+And sometimes, I will describe my experiences that are related to different interviews and life situations.
