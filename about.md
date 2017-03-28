@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_VL.pdf) and send me email or a DM on LinkedIn.
+> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_VL.pdf) and send me email or a DM on LinkedIn or use [contact form]({{ page.url }}#contact).
 
 {:refdef: style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
@@ -16,3 +16,11 @@ My name is Vladimir, I am a graduate student with a Master of Science Degree in 
 
 This blog is a summary of my learning process of different algorithms and data structures. It also serves the purpose of helping people with similar issues that I had and practice my written English. 
 And sometimes, I will describe my experiences that are related to different interviews and life situations.
+
+## Contact Me
+<form id="contact" action="https://formspree.io/vladimir@enginerd.io" method="POST">
+  <input type="text" name="name" placeholder="Name" maxlength="50" required>
+  <input type="email" name="_replyto" placeholder="Email" maxlength="254" required>
+  <textarea name="body" placeholder="Message" maxlength="400" required></textarea>
+  <input class="btn" type="submit" value="Send">
+</form>

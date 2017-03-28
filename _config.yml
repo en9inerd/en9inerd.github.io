@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-title: Pogromist's Blog
+title: EngiNerd's Blog
 
 # Short bio or description (displayed in the header)
 description: Open source developer, former Network Engineer
@@ -13,10 +13,10 @@ author: Vladimir L
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: vladimir@pogromist.io
+  email: vladimir@enginerd.io
   facebook:
   flickr:
-  github: p0gr0mist
+  github: eng1nerd
   instagram:
   linkedin: vloskutov
   pinterest:
@@ -31,14 +31,14 @@ social:
   name: Vladimir L
   links: 
     - https://www.linkedin.com/in/vloskutov
-    - https://github.com/p0gr0mist
+    - https://github.com/eng1nerd
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: pogromist-io 
+disqus: enginerd
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-66941010-2 
+google_analytics: UA-66941010-2
 
 paginate: 5
 
@@ -46,7 +46,7 @@ excerpt_separator: <!--more-->
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://pogromist.io
+url: https://enginerd.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

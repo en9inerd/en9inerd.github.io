@@ -8,7 +8,7 @@ tags: [bio, computer science]
 
 One person asked me to write short story about "How you fell in love with coding?"
 
-**A little bit about me:**<!--more--> since I was seven, the IT industry was always around me. It was very interesting to understand how one or the other device works, especially how hardware like CPU and GPU are made. As a result, I have always been working with the hardware from ZX Spectrum to the present day - in fact, since I was fourteen, I worked as a PC assembler. 
+**A little bit about me:** since I was seven, the IT industry was always around me. It was very interesting to understand how one or the other device works, especially how hardware like CPU and GPU are made. As a result, I have always been working with the hardware from ZX Spectrum to the present day - in fact, since I was fourteen, I worked as a PC assembler. <!--more-->
 
 My dad is a perfect example for me, I always wanted to be someone like him. When I was little, he was a programmer on assembler. Looking at him, I developed big interest toward computers, how they work, and how to develop programs that calculate what is necessary.
 
