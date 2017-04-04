@@ -1,0 +1,23 @@
+- type: Programming Languages
+  tools: [C/C++, Python, SQL, Java, Perl, Tcl/Tk, Bash, PowerShell]
+
+- type: Frameworks and tools
+  tools: [Django, Jekyll, Bootstrap, Elasticsearch, Celery]
+
+- type: Algorithms
+  tools: [For standard cell placement and global routing]
+
+- type: Databases
+  tools: [SQLite, PostgreSQL]
+
+- type: Web
+  tools: [HTML5, CSS3, XML, Liquid, JavaScript]
+
+- type: Platforms
+  tools: [Windows/Unix/Linux]
+
+- type: Miscellaneous
+  tools: [Mercurial, Git, Eclipse, MS Visual Studio]
+
+- type: System Administration
+  tools: [LAN/WAN/NOC Administration, Technical Support]

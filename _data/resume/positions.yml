@@ -1,0 +1,34 @@
+- employer: Verifeed LLC
+  title: Software Engineering Intern
+  location: Washington DC
+  start_date: 2016-09-01
+  end_date: 2016-12-31
+  duties:
+  - Software development and maintenance that is oriented on social intelligence analytics using Django, Bootstrap
+  - Tools development and maintenance for generating reports using Django, PostgreSQL, Git
+  - Agile Development and Test Driven Development
+
+- employer: Angstrem-Telecom
+  title: Junior Network Engineer
+  location: Moscow, Russia
+  start_date: 2014-09-01
+  end_date: 2015-05-31
+  duties:
+  - Testing of embedded network devices (SoC RTL89xxC) based on OpenWrt and Octopus using Bash, iptables
+  - Finding/Fixing bugs and maintaining code using C/C++, Git
+  - Experience with RTL8188{C\|CU\|CUS}, RT8192{C\|CU} wifi chips, RS-232 interface, U-Boot bootloader
+  - Debricked routers using JTAG, Serial console
+  - Fixing web interfaces using HTML, CSS, JavaScript
+  - Writing documentation for network equipment using MS Office
+
+- employer: Ltd. QDGroup
+  title: Technical Specialist
+  location: Moscow, Russia
+  start_date: 2011-07-01
+  end_date: 2014-08-31
+  duties:
+  - Support for local office network in working condition, setting of office software and equipment
+  - Configuration and maintenance of servers based on Windows and *nix, and other network equipment
+  - Experience of using RS-232, RS-485 communications (corresponding protocols) for debugging (via serial console), debrick and firmware replacement of network devices
+  - Installation and maintenance of access control system Apollo (running APACS). Firnware replacement, configuration, and interaction of Apollo's controllers
+  - Configuration and maintenance of software (asterisk) and hardware PBX

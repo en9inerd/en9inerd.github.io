@@ -1,0 +1,20 @@
+- name: Tetris algorithm
+  desc: Implementation Tetris algorithm for legalization of standard cell placement
+  class: Algorithms for Analysis & Optimization of Very-Large-Scale Integration & Systems on a Chip
+  used: [C/C++, STL, GLUT]
+  start_date: 2015-04-01
+  end_date: 2015-05-01
+
+- name: Kernighan-Lin algorithm
+  desc: Implementation Kernighan-Lin Algorithm for circuit partitioning
+  class: Algorithms for Analysis & Optimization of Very-Large-Scale Integration & Systems on a Chip
+  used: [C/C++, STL]
+  start_date: 2015-03-01
+  end_date: 2015-04-01
+
+- name: PlacerSA
+  desc: Placer for standard cell placement (global & detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
+  class:
+  used: [C/C++, STL, GLUT, Batch scripting]
+  start_date: 2014-11-01
+  end_date: 2015-05-01

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Task on C for interview"
 date: 2017-02-10 22:07 -05:00
 category: Tests

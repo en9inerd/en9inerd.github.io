@@ -2,9 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+seo:
+  type: person
 ---
 
-> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}/public/Resume_VL.pdf) and send me email or a DM on LinkedIn or use [contact form]({{ page.url }}#contact).
+> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}{% link resume.md %}) and send me email or a DM on LinkedIn or use [contact form]({{ page.url }}#contact).
 
 {:refdef: style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
@@ -22,5 +24,5 @@ And sometimes, I will describe my experiences that are related to different inte
   <input type="text" name="name" placeholder="Name" maxlength="50" required>
   <input type="email" name="_replyto" placeholder="Email" maxlength="254" required>
   <textarea name="body" placeholder="Message" maxlength="400" required></textarea>
-  <input class="btn" type="submit" value="Send">
+  <input class="btn right-btn" type="submit" value="Send">
 </form>

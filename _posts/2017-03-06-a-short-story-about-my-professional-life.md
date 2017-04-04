@@ -1,5 +1,4 @@
 ---
-layput: post
 title: "A short story about my professional life"
 date: 2017-03-06 22:07 -05:00
 category: About myself
