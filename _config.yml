@@ -2,6 +2,8 @@ title: EngiNerd's Blog
 description: Open source developer, former Network Engineer
 author: Vladimir Loskutov
 
+logo: /assets/img/logo.jpg
+
 footer-links:
   dribbble:
   email: vladimir@enginerd.io
@@ -24,6 +26,7 @@ social:
   links: 
     - https://www.linkedin.com/in/vloskutov
     - https://github.com/eng1nerd
+    - https://keybase.io/en9inerd
 
 disqus: enginerd
 
@@ -33,7 +36,7 @@ paginate: 5
 
 excerpt_separator: <!--more-->
 
-url: https://enginerd.io
+url: http://enginerd.io
 baseurl: ""
 
 show_downloads: false
@@ -54,6 +57,7 @@ defaults:
       comments: false
 
 timezone: America/New_York
+lang: en-US
 
 gems:
   - jekyll-seo-tag
