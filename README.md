@@ -1,6 +1,6 @@
 # EngiNerd.io
 
-The personal website of Vladimir L. Built using Jekyll and GitHub Pages.
+The personal website of Vladimir Loskutov. Built using Jekyll and GitHub Pages.
 
 ## License
 
