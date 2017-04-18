@@ -18,7 +18,7 @@ seo:
 
 | Skill        | Tool (if applicable) |
 |:-------------|:---------------------|
-{% for skill in site.data.resume.skills %}| {{ skill.type }} | {{ skill.tools | join: ', ' }} |  
+{% for skill in site.data.resume.skills %}| {{ skill.type }} | {% for tool in skill.tools %}{{ tool.name }}({{ tool.exp }}{% if forloop.first %} years{% else %}y{% endif %}){% unless forloop.last %}, {% endunless %}{% endfor %} |  
 {% endfor %}
 
 ## Education

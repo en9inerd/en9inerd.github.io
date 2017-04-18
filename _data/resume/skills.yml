@@ -1,23 +1,63 @@
 - type: Programming Languages
-  tools: [C/C++, Python, SQL, Java, Perl, Tcl/Tk, Bash, PowerShell]
+  tools:
+  - name: C/C++
+    exp: 4
+  - name: Python
+    exp: 3
+  - name: SQL
+    exp: 1
+  - name: Java
+    exp: 1
+  - name: Perl
+    exp: 1
+  - name: Bash
+    exp: 3
 
 - type: Frameworks and tools
-  tools: [Django, Jekyll, Bootstrap, Elasticsearch, Celery]
-
-- type: Algorithms
-  tools: [For standard cell placement and global routing]
+  tools:
+  - name: Django
+    exp: 1
+  - name: Bootstrap
+    exp: 1
+  - name: Elasticsearch
+    exp: 1
+  - name: Celery
+    exp: 1
 
 - type: Databases
-  tools: [SQLite, PostgreSQL]
+  tools:
+  - name: SQLite
+    exp: 2
+  - name: PostgreSQL
+    exp: 1
 
 - type: Web
-  tools: [HTML5, CSS3, XML, Liquid, JavaScript]
+  tools:
+  - name: HTML
+    exp: 6
+  - name: CSS
+    exp: 6
+  - name: XML
+    exp: 6
+  - name: Liquid
+    exp: 1
+  - name: JavaScript
+    exp: 1
 
 - type: Platforms
-  tools: [Windows/Unix/Linux]
+  tools:
+  - name: Windows
+    exp: 6
+  - name: Linux
+    exp: 4
 
 - type: Miscellaneous
-  tools: [Mercurial, Git, Eclipse, MS Visual Studio]
-
-- type: System Administration
-  tools: [LAN/WAN/NOC Administration, Technical Support]
+  tools:
+  - name: Git
+    exp: 4
+  - name: Mercurial
+    exp: 2
+  - name: MS Visual Studio
+    exp: 3
+  - name: Jekyll
+    exp: 1
