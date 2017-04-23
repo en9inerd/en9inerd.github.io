@@ -1,8 +1,8 @@
 ---
 title: "Task on C for interview"
 date: 2017-02-10 22:07 -05:00
-category: Tests
-tags: [C/C++, Python, hashtable, task for an interview]
+category: Assessments
+tags: [C/C++, Python, hashtable, assessment]
 ---
 
 One of the companies where I applied for a job, gave me [this]({{ site.github.owner_url }}/concordance#concordance) task for an interview. Task is mainly focused on knowledge of C programming language and data structures.

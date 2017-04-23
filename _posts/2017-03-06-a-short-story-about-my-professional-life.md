@@ -2,7 +2,7 @@
 title: "A short story about my professional life"
 date: 2017-03-06 22:07 -05:00
 category: About myself
-tags: [bio, computer science]
+tags: [bio, ComputerScience]
 ---
 
 One person asked me to write short story about "How you fell in love with coding?"

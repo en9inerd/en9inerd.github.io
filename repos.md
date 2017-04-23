@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Repos
+permalink: /repos/
 ---
 
 {% for repository in site.github.public_repositories %}{% unless repository.fork %}
