@@ -6,7 +6,7 @@ seo:
   type: person
 ---
 
-> ### Currently available for full-time job. If you are interested, please see my [resume]({{ site.baseurl }}{% link resume.md %}) and send me email or a DM on LinkedIn or use [contact form]({{ page.url }}#contact).
+> ### You can see my [resume]({{ site.baseurl }}{% link resume.md %}) and send me email or a DM on LinkedIn or use [contact form]({{ page.url }}#contact).
 
 {:refdef: style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
