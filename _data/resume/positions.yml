@@ -4,7 +4,7 @@
   start_date: 2017-05-15
   end_date: 
   duties:
-  - Software development and maintenance that is oriented on social intelligence analytics using Django, PostgreSQL (Redshift)
+  - Software development and maintenance that is oriented on social intelligence analytic using Django, PostgreSQL (Redshift)
   - Using Scrum development methodology and Test Driven Development
 
 - employer: Verifeed LLC
@@ -13,7 +13,7 @@
   start_date: 2016-09-01
   end_date: 2016-12-31
   duties:
-  - Software development and maintenance that is oriented on social intelligence analytics using Django, Bootstrap
+  - Software development and maintenance that is oriented on social intelligence analytic using Django, Bootstrap
   - Tools development and maintenance for generating reports using Django, PostgreSQL, Git
   - Agile Development and Test Driven Development
 

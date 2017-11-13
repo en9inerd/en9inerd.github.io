@@ -29,6 +29,11 @@ social:
 
 disqus: enginerd
 
+pgp-key:
+  show: true
+  url: https://keybase.io/en9inerd/pgp_keys.asc?fingerprint=3a6b30b1c535625d51caa2f0232a56bcff4eaef2
+  fingerprint: 3A6B 30B1 C535 625D 51CA A2F0 232A 56BC FF4E AEF2
+
 google_analytics: UA-66941010-2
 
 paginate: 5
@@ -58,7 +63,7 @@ defaults:
 timezone: America/New_York
 lang: en-US
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jemoji
@@ -68,14 +73,12 @@ gems:
   - jekyll-gist
   - jekyll-avatar
   - jekyll-github-metadata
+  - jekyll-remote-theme
 
 sass:
   style: compressed
-  sass_dir: hacker/_sass
-includes_dir: hacker/_includes
-layouts_dir: hacker/_layouts
 
-theme: jekyll-theme-hacker
+remote_theme: eng1nerd/hacker
 
 exclude:
   - Gemfile
@@ -83,4 +86,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - hacker
