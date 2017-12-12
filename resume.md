@@ -2,6 +2,7 @@
 title: Resume
 layout: page
 permalink: /resume/
+redirect_from: /cv/
 seo:
   type: person
 ---
