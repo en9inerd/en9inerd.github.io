@@ -41,7 +41,7 @@ paginate: 5
 
 excerpt_separator: <!--more-->
 
-url: http://enginerd.io
+url: https://enginerd.io
 baseurl: ""
 
 show_downloads: false

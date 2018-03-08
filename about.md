@@ -22,7 +22,7 @@ And sometimes, I will describe my experiences that are related to different inte
 ## Contact Me
 <form id="contact" action="https://formspree.io/vladimir@enginerd.io" method="POST">
   <input type="text" name="name" placeholder="Name" maxlength="50" required>
-  <input type="email" name="_replyto" placeholder="Email" maxlength="254" required>
+  <input type="email" name="email" placeholder="Email" maxlength="254" required>
   <textarea name="body" placeholder="Message" maxlength="400" required></textarea>
   <input class="btn cf" type="submit" value="Send">
 </form>
