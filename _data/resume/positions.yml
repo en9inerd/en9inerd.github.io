@@ -4,7 +4,9 @@
   start_date: 2017-05-15
   end_date: 
   duties:
-  - Software development and maintenance that is oriented on social intelligence analytic using Django, PostgreSQL (Redshift)
+  - Software development and maintenance that is oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
+  - Automating AWS (including Automating processing of Big Data) with Python and Boto3
+  - Data Warehousing based on Amazon Redshift
   - Using Scrum development methodology and Test Driven Development
 
 - employer: Verifeed LLC

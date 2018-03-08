@@ -22,17 +22,6 @@ seo:
 {% for skill in site.data.resume.skills %}| {{ skill.type }} | {% for tool in skill.tools %}{{ tool.name }}({{ tool.exp }}{% if forloop.first %} years{% else %}y{% endif %}){% unless forloop.last %}, {% endunless %}{% endfor %} |  
 {% endfor %}
 
-## Education
-
-{% for degree in site.data.resume.degrees %}
-
-### {{ degree.school }}
-
-{{ degree.degree }}
-<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}&nbsp;&nbsp;&nbsp;&nbsp;Graduated: {{ degree.date | date: "%B %Y" }}</time>
-<br />
-{% endfor %}
-
 ## Experience
 
 {% assign positions=site.data.resume.positions | sort: "start_date" %}
@@ -52,6 +41,17 @@ seo:
 {% for duty in position.duties %}
 - {{ duty }}.{% endfor %}
 {% assign previous_employer=position.employer %}
+<br />
+{% endfor %}
+
+## Education
+
+{% for degree in site.data.resume.degrees %}
+
+### {{ degree.school }}
+
+{{ degree.degree }}
+<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}&nbsp;&nbsp;&nbsp;&nbsp;Graduated: {{ degree.date | date: "%B %Y" }}</time>
 <br />
 {% endfor %}
 

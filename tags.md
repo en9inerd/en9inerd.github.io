@@ -4,8 +4,8 @@ title: Tags
 permalink: /tags/
 ---
 
-<div>
-  <span class="pre-post">|--> [
+<div class="post-info">
+  <span>[
   {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}]

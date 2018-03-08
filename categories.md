@@ -4,8 +4,8 @@ title: Categories
 permalink: /categories/
 ---
 
-<div>
-  <span class="pre-post">~/ [
+<div class="post-info">
+  <span>[
   {% for category in site.categories %}
     <a href="#{{ category[0] | slugify: 'pretty' }}">{{ category[0] }}</a>{% unless forloop.last %},{% endunless %}
   {% endfor %}]
