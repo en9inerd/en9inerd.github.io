@@ -19,9 +19,9 @@ permalink: /categories/
   {% for post in category[1] %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}">
-      {{ post.title }}
-        <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+        {{ post.title }}
       </a>
+      <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
     </li>
   {% endfor %}
   </ul>
