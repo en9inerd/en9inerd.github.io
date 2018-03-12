@@ -51,7 +51,7 @@ seo:
 ### {{ degree.school }}
 
 {{ degree.degree }}
-<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}&nbsp;&nbsp;&nbsp;&nbsp;Graduated: {{ degree.date | date: "%B %Y" }}</time>
+<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}Graduated: {{ degree.date | date: "%B %Y" }}</time>
 <br />
 {% endfor %}
 

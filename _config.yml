@@ -39,6 +39,8 @@ google_analytics: UA-66941010-2
 
 paginate: 5
 
+permalink: pretty
+
 excerpt_separator: <!--more-->
 
 url: https://enginerd.io
