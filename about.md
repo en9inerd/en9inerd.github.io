@@ -20,9 +20,15 @@ This blog is a summary of my learning process of different algorithms and data s
 And sometimes, I will describe my experiences that are related to different interviews and life situations.
 
 ## Contact Me
-<form id="contact" action="https://formspree.io/vladimir@enginerd.io" method="POST">
+<form id="gform" class="contact-form" action="https://script.google.com/macros/s/AKfycbyG8vpMrmGA5OUDQu_TLDPjpXHEqm4np8xnWSviTfG6k4Zfmm0/exec" method="POST">
+  <input id="honeypot" type="text" name="honeypot" value="" />
   <input type="text" name="name" placeholder="Name" maxlength="50" required>
   <input type="email" name="email" placeholder="Email" maxlength="254" required>
   <textarea name="body" placeholder="Message" maxlength="400" required></textarea>
   <input class="btn cf" type="submit" value="Send">
 </form>
+<div style="display:none;" id="thankyou_message">
+  <h2><em>Thanks</em> for contacting us!
+    We will get back to you soon!</h2>
+</div>
+<script data-cfasync="false" type="text/javascript" src="{{ site.baseurl }}{% link /assets/vendor/form-submission-handler.js %}"></script>
