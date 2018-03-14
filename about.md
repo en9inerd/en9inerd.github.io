@@ -28,7 +28,7 @@ And sometimes, I will describe my experiences that are related to different inte
   <input class="btn cf" type="submit" value="Send">
 </form>
 <div style="display:none;" id="thankyou_message">
-  <h2><em>Thanks</em> for contacting us!
-    We will get back to you soon!</h2>
+  <h2><em>Thanks</em> for contacting me!
+    I will get back to you soon!</h2>
 </div>
 <script data-cfasync="false" type="text/javascript" src="{{ site.baseurl }}{% link /assets/vendor/form-submission-handler.js %}"></script>
