@@ -11,6 +11,6 @@ In my opinion, best solution is by using hash tables, because task involves freq
 My implementation of hash table was based on implementation from [PineWiki by JamesAspnes](http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)HashTables.html?highlight=(CategoryAlgorithmNotes)). This implementation is quite simple and it is not so good in terms of performance (especially for production), as [jwHash](https://github.com/watmough/jwHash).
 Also, I implemented the task on C++ and Python for myself, where I used containers that are already implemented and contained in C++ STL (unordered_map, map and vector) and Python (dict and list).
 
-Fastest implementation turned out to be in C++. Unfortunately, I did not use all the abilities of C. Also, it is not a very good implementation of hash table based on chaining instead of open addressing.
+Of course, fastest implementation was in C++. Unfortunately, I did not use all the abilities of C. Also, it is not a very good implementation of hash table based on chaining instead of open addressing.
 
 [Big-O Algorithm Complexity Cheat Sheet](http://bigocheatsheet.com/)

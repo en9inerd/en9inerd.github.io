@@ -57,5 +57,7 @@
     exp: 5
   - name: AWS
     exp: 1
+  - name: Terraform
+    exp: 1
   - name: Jekyll
     exp: 2
