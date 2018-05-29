@@ -6,8 +6,6 @@
     exp: 3
   - name: C/C++
     exp: 4
-  - name: Java
-    exp: 1
   - name: Bash
     exp: 4
 
@@ -51,11 +49,24 @@
   - name: Linux
     exp: 5
 
+- type: AWS Services
+  tools:
+  - name: EC2
+  - name: S3
+  - name: RDS
+  - name: Redshift
+  - name: VPC
+  - name: IAM
+  - name: DynamoDB
+  - name: SQS
+  - name: ElastiCache
+  - name: Lambda
+
 - type: Miscellaneous
   tools:
   - name: Git
     exp: 5
-  - name: AWS
+  - name: AWS Services
     exp: 1
   - name: Terraform
     exp: 1
