@@ -1,0 +1,14 @@
+---
+layout: null
+disallows:
+  - /tags/
+  - /categories/
+  - /404.html
+  - /assets/files/Resume_VL.pdf
+---
+
+User-agent: *{% for disallowed in page.disallows %}
+Disallow: {{ disallowed }}{% endfor %}
+Allow: /
+Sitemap: {{ site.url }}/sitemap.xml
+Host: enginerd.io
