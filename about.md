@@ -12,7 +12,7 @@ seo:
 {% avatar {{ site.github.owner_name }} size=200 %}
 {: refdef}
 
-My name is Vladimir, I am a graduate student with a Master of Science Degree in Computer Science and Engineering, I received this degree in Russia. My interests are related to automation, front/back-end development, system administration, and learning new technologies. Right now I live in Washington DC, USA.
+My name is Vladimir, I am a graduate student with a Master of Science Degree in Computer Science and Engineering, I received this degree in Russia. My interests are related to automation of processing data, front/back-end development, system administration, and learning new technologies. Right now I live in Washington DC, USA.
 
 ## Why This Blog
 
