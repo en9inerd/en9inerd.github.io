@@ -1,8 +1,8 @@
 ---
 layout: null
 disallows:
-  - /tags/
-  - /categories/
+  - /tags*
+  - /categories*
   - /404.html
   - /assets/files/Resume_VL.pdf
 ---

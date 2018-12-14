@@ -39,7 +39,7 @@ seo:
   {{ position.start_date | date: '%B %Y' }} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>
 {% for duty in position.duties %}
-- {{ duty }}.{% endfor %}
+- {{ duty }}{% endfor %}
 {% assign previous_employer=position.employer %}
 <br />
 {% endfor %}
@@ -51,10 +51,11 @@ seo:
 ### {{ degree.school }}
 
 {{ degree.degree }}
-<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}Graduated: {{ degree.date | date: "%B %Y" }}</time>
+<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}&nbsp;&nbsp;&nbsp;&nbsp;Graduated: {{ degree.date | date: "%B %Y" }}</time>
 <br />
 {% endfor %}
 
+<!--/ Disable Projects
 ## Projects
 
 {% for project in site.data.resume.projects %}
@@ -64,8 +65,9 @@ seo:
 <time datetime="{{ project.start_date | date_to_xmlschema }}" style="display:block;text-align:right;">
   {{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>  
-{{ project.desc }}.  
+{{ project.desc }}  
 {% if project.class %}<span class="pre-post">Class:</span> {{ project.class }}{% endif %}  
 <span class="pre-post">Used:</span> {{ project.used | join: ', ' }}.<br />
 <br />
 {% endfor %}
+Disable Projects /-->
