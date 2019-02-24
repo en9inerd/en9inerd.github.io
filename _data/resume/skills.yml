@@ -1,74 +1,20 @@
 - type: Programming Languages
-  tools:
-  - name: Python
-    exp: 4
-  - name: SQL
-    exp: 3
-  - name: C/C++
-    exp: 4
-  - name: Bash
-    exp: 4
+  tools: [Python, SQL, C/C++, Bash]
 
 - type: Frameworks and tools
-  tools:
-  - name: Django
-    exp: 2
-  - name: Celery
-    exp: 2
-  - name: Elasticsearch
-    exp: 1
-  - name: Bootstrap
-    exp: 1
+  tools: [Django, Celery, TkInter, Bootstrap]
 
 - type: Databases
-  tools:
-  - name: PostgreSQL
-    exp: 2
-  - name: Redis
-    exp: 2
-  - name: SQLite
-    exp: 3
+  tools: [PostgreSQL, Redis, SQLite]
 
 - type: Web
-  tools:
-  - name: HTML
-    exp: 7
-  - name: CSS
-    exp: 7
-  - name: XML
-    exp: 7
-  - name: Liquid
-    exp: 2
-  - name: JavaScript
-    exp: 1
+  tools: [HTML, CSS, XML, JavaScript]
 
 - type: Platforms
-  tools:
-  - name: Windows
-    exp: 6
-  - name: Linux
-    exp: 5
+  tools: [Windows, Linux]
 
 - type: AWS Services
-  tools:
-  - name: EC2
-  - name: S3
-  - name: RDS
-  - name: Redshift
-  - name: VPC
-  - name: IAM
-  - name: DynamoDB
-  - name: SQS
-  - name: ElastiCache
-  - name: Lambda
+  tools: [EC2, S3, RDS ,Redshift, VPC, IAM, CloudFront, ECS, ElastiCache, Lambda, Parameter Store]
 
 - type: Miscellaneous
-  tools:
-  - name: Git
-    exp: 5
-  - name: AWS Services
-    exp: 1
-  - name: Terraform
-    exp: 1
-  - name: Jekyll
-    exp: 2
+  tools: [Git, Docker, Ansible, Terraform, Jekyll, Liquid]

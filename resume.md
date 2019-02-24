@@ -19,7 +19,7 @@ seo:
 
 | Skill        | Tool (if applicable) |
 |:-------------|:---------------------|
-{% for skill in site.data.resume.skills %}| {{ skill.type }} | {% for tool in skill.tools %}{{ tool.name }}{% if tool.exp %}({{ tool.exp }}{% if forloop.first %} years{% else %}y{% endif %}){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %} |  
+{% for skill in site.data.resume.skills %}| {{ skill.type }} | {% for tool in skill.tools %}{{ tool }}{% unless forloop.last %}, {% endunless %}{% endfor %} |  
 {% endfor %}
 
 ## Experience

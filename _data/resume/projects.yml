@@ -1,24 +1,3 @@
-- name: Housing Insights
-  desc: The purpose of this project is to put better information in the hands of the decision makers and advocates for affordable housing. It will connect to relevant outside data such as public transit, zoning, and neighborhood characteristics to make it easy to consider all the relevant factors when prioritizing and coordinating work
-  class:
-  used: [Python, Flask API, Docker]
-  start_date: 2017-04-01
-  end_date:
-
-- name: Tetris algorithm
-  desc: Implementation Tetris algorithm for legalization of standard cell placement
-  class: Algorithms for Analysis & Optimization of Very-Large-Scale Integration & Systems on a Chip
-  used: [C/C++, STL, GLUT]
-  start_date: 2015-04-01
-  end_date: 2015-05-01
-
-- name: Kernighan-Lin algorithm
-  desc: Implementation Kernighan-Lin Algorithm for circuit partitioning
-  class: Algorithms for Analysis & Optimization of Very-Large-Scale Integration & Systems on a Chip
-  used: [C/C++, STL]
-  start_date: 2015-03-01
-  end_date: 2015-04-01
-
 - name: PlacerSA
   desc: Placer for standard cell placement (global & detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
   class:
