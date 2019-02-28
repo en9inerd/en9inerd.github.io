@@ -55,7 +55,6 @@ seo:
 <br />
 {% endfor %}
 
-<!--/ Disable Projects
 ## Projects
 
 {% for project in site.data.resume.projects %}
@@ -65,9 +64,7 @@ seo:
 <time datetime="{{ project.start_date | date_to_xmlschema }}" style="display:block;text-align:right;">
   {{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>  
-{{ project.desc }}  
-{% if project.class %}<span class="pre-post">Class:</span> {{ project.class }}{% endif %}  
-<span class="pre-post">Used:</span> {{ project.used | join: ', ' }}.<br />
+{{ project.desc }}    
+<span class="pre-post">Used:</span> {{ project.used | join: ', ' }}<br />
 <br />
 {% endfor %}
-Disable Projects /-->

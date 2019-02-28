@@ -4,12 +4,13 @@
   start_date: 2017-05-15
   end_date: 
   duties:
-  - Software development and maintenance that is oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
-  - Automating AWS (including Automating processing of Big Data) with Python and Boto3
+  - Software development and maintenance that was oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
+  - Automated AWS, including Automating processing of Big Data with Python and Boto3
   - Data Warehousing based on Amazon Redshift
-  - Redshift cost improvements (it reduced the company's expenses)
-  - Supporting and developing a Redshift report that generates hundreds of thousands of dollars of revenue per year
-  - Using Scrum development methodology and Test Driven Development
+  - Reduced company’s monthly bill for Redshift dramatically
+  - Built and deployed Docker containers to break up monolithic app into microservices, improving developer workflow, increasing scalability, and optimizing speed
+  - Supported and developed a Redshift report that generates hundreds of thousands of dollars of revenue per year
+  - Used Scrum development methodology and Test Driven Development
 
 - employer: Verifeed LLC
   title: Software Engineering Intern
@@ -17,7 +18,7 @@
   start_date: 2016-09-01
   end_date: 2016-12-31
   duties:
-  - Software development and maintenance that is oriented on social intelligence analytic using Django, Bootstrap
+  - Software development and maintenance that was oriented on social intelligence analytics using Django, Bootstrap
   - Tools development and maintenance for generating reports using Django, PostgreSQL, Git
   - Agile Development and Test Driven Development
 
@@ -27,12 +28,12 @@
   start_date: 2014-09-01
   end_date: 2015-05-31
   duties:
-  - Testing of embedded network devices (SoC RTL89xxC) based on OpenWrt and Octopus using Bash, iptables
-  - Finding/Fixing bugs and maintaining code using C/C++, Git
-  - Experience with RTL8188{C\|CU\|CUS}, RT8192{C\|CU} wifi chips, RS-232 interface, U-Boot bootloader
+  - Tested of embedded network devices (SoC RTL89xxC) based on OpenWrt and Octopus using Bash, iptables
+  - Found and fixed bugs and maintained C/C++ code using Git
+  - Worked with RTL8188C\|CU\|CUS, RT8192C\|CU wifi chips, RS-232 interface, U-Boot bootloader
   - Debricked routers using JTAG, Serial console
-  - Fixing web interfaces using HTML, CSS, JavaScript
-  - Writing documentation for network equipment using MS Office
+  - Fixed web interfaces using HTML, CSS, JavaScript
+  - Wrote documentation for network equipment using MS Office
 
 - employer: Ltd. QDGroup
   title: Technical Specialist
@@ -40,8 +41,8 @@
   start_date: 2011-07-01
   end_date: 2014-08-31
   duties:
-  - Support for local office network in working condition, setting of office software and equipment
-  - Configuration and maintenance of servers based on Windows and *nix, and other network equipment
-  - Experience of using RS-232, RS-485 communications (corresponding protocols) for debugging (via serial console), debrick, and firmware replacement of network devices
-  - Installation and maintenance of access control system Apollo (running APACS). Firnware replacement, configuration, and interaction of Apollo's controllers
-  - Configuration and maintenance of software (asterisk) and hardware PBX
+  - Provided support for local office network in working condition and set up of office software and equipment
+  - Configured and maintained Windows and *nix servers, and other network equipment
+  - Experience of using RS-232, RS-485 communications (corresponding protocols) for debugging via serial console, debrick and firmware replacement of network devices
+  - Installed and maintained Apollo Security’s Access Control and Alarm Monitoring System (APACS). Performed firmware replacement, configuration, and interaction for Apollo’s controllers
+  - Configured and maintained PBX hardware and Asterisk PBX software
