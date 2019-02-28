@@ -31,4 +31,4 @@ And sometimes, I will describe my experiences that are related to different inte
   <h2><em>Thanks</em> for contacting me!
     I will get back to you soon!</h2>
 </div>
-<script data-cfasync="false" type="text/javascript" src="{{ site.baseurl }}{% link /assets/vendor/form-submission-handler.js %}"></script>
+<script data-cfasync="false" type="text/javascript" src="{{ '/assets/vendor/form-submission-handler.js' | relative_url  }}"></script>

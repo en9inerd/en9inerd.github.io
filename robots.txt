@@ -4,7 +4,7 @@ disallows:
   - /tags*
   - /categories*
   - /404.html
-  - /assets/files/Resume_VL.pdf
+  - /assets/*
 ---
 
 User-agent: *{% for disallowed in page.disallows %}

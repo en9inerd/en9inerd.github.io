@@ -18,10 +18,10 @@ permalink: /tags/
   <ul>
   {% for post in tag[1] %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
-      <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+      <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string: "ordinal", "US" }}</time></small>
     </li>
   {% endfor %}
   </ul>

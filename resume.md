@@ -8,7 +8,7 @@ seo:
 ---
 
 {:style="text-align:right;"}
-[Download as .pdf]({{ site.baseurl }}{% link /assets/files/Resume_VL.pdf %}){:.btn style="text-decoration:none;"}
+[Download as .pdf]({{ '/assets/files/Resume_VL.pdf' | relative_url  }}){:.btn style="text-decoration:none;"}
 
 ## Summary
 
@@ -64,7 +64,7 @@ seo:
 <time datetime="{{ project.start_date | date_to_xmlschema }}" style="display:block;text-align:right;">
   {{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>  
-{{ project.desc }}    
-<span class="pre-post">Used:</span> {{ project.used | join: ', ' }}<br />
+{{ project.desc }}.  
+<span class="pre-post">Technologies:</span> {{ project.technologies | join: ', ' }}<br />
 <br />
 {% endfor %}
