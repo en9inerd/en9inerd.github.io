@@ -12,15 +12,17 @@ seo:
 {% avatar {{ site.github.owner_name }} size=200 %}
 {: refdef}
 
-My name is Vladimir, I am a graduate student with a Master of Science Degree in Computer Science and Engineering, I received this degree in Russia. My interests are related to automation of processing data, front/back-end development, system administration, and learning new technologies. Right now I live in Washington DC, USA.
+My name is Vladimir, I'm a software developer whose most interests are related to automating data processing (ETL tools) and automating infrastructure (mostly AWS infrastructure) using AWS, Python, Ubuntu, Docker, bash, and more. 
+
+In my spare time, I help my wife with photography website based on Jekyll, implement some scripts based on Telegram API and other things just for fun. Also, I enjoy hiking and playing video games. Right now I live in Washington DC area, USA.
 
 ## Why This Blog
 
-This blog is a summary of my learning process of different algorithms and data structures. It also serves the purpose of helping people with similar issues that I had and practice my written English. 
+This blog is a summary of my learning process of different tech things that I'm interested in. It also serves the purpose of helping people with similar issues that I had. 
 And sometimes, I will describe my experiences that are related to different interviews and life situations.
 
 ## Contact Me
-<form class="gform contact-form" action="https://script.google.com/macros/s/AKfycbyEkU6pg1iCtB_5hYBzuZaWWDkCitz4B_lSvJvO/exec" method="POST">
+<form id="contact" class="gform contact-form" action="https://script.google.com/macros/s/AKfycbyGpb8FslwEaO4_6by0ZmEI1_-Gr6lD9qXfQby9ZHN4EQgB1Vs/exec" method="POST">
   <div class="form-elements">
     <input id="honeypot" type="text" name="honeypot" value="" />
     <input type="text" name="name" placeholder="Name" maxlength="50" required>

@@ -5,7 +5,7 @@
   end_date: 
   duties:
   - Software development and maintenance that was oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
-  - Automated AWS, including Automating processing of Big Data with Python and Boto3
+  - Automated AWS, including Automating Big Data processing with Python and Boto3
   - Data Warehousing based on Amazon Redshift
   - Reduced company’s monthly bill for Redshift dramatically
   - Built and deployed Docker containers to break up monolithic app into microservices, improving developer workflow, increasing scalability, and optimizing speed
