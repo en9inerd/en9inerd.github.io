@@ -3,6 +3,7 @@ title: "Back in the job market again"
 date: 2019-03-01 09:29
 category: About myself
 tags: [job, bio]
+hidden: true
 ---
 
 Haven't written anything here for a while, I was very busy with my job and other things.  
