@@ -1,8 +1,24 @@
+- employer: Axle Informatics
+  title: Software Developer
+  location: Rocville, MD
+  start_date: 2020-02-15
+  end_date:
+  duties:
+
+- employer: Burson Cohn & Wolfe
+  title: Software Engineer
+  location: Washington, DC
+  start_date: 2019-07-16
+  end_date: 2020-02-15
+  duties:
+  - Developed serverless app based on AWS Lambda (Node.js back-end), AWS Cognito, AWS API Gateway, AWS S3 (JavaScript front-end) to manage and collect records in DynamoDB for further data extraction and analysis by using AWS Glue and Amazon Athena
+  - Implemented Python package to work with NewsWhip and SimilarWeb APIs. Implemented report using this Python package to do NewsWhip and SimilarWeb data analysis
+
 - employer: Burson Cohn & Wolfe
   title: Python DevOps Developer
-  location: Washington DC
+  location: Washington, DC
   start_date: 2017-05-15
-  end_date: 
+  end_date: 2019-07-15
   duties:
   - Software development and maintenance that was oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
   - Automated AWS, including Automating Big Data processing with Python and Boto3
@@ -14,7 +30,7 @@
 
 - employer: Verifeed LLC
   title: Software Engineering Intern
-  location: Washington DC
+  location: Washington, DC
   start_date: 2016-09-01
   end_date: 2016-12-31
   duties:

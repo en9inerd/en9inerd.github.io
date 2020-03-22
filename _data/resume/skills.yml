@@ -14,7 +14,7 @@
   tools: [Windows, Linux]
 
 - type: AWS Services
-  tools: [EC2, S3, RDS ,Redshift, VPC, IAM, CloudFront, ECS, ElastiCache, Lambda, Parameter Store]
+  tools: [EC2, S3, RDS ,Redshift, VPC, IAM, CloudFront, ECS, ElastiCache, Lambda, Parameter Store, DynamoDB]
 
 - type: Miscellaneous
-  tools: [Git, Docker, Ansible, Terraform, Jekyll, Liquid]
+  tools: [Git, Docker, Ansible, Terraform, Jekyll, Liquid, LaTeX]
