@@ -8,7 +8,7 @@ seo:
 ---
 
 {:style="text-align:right;"}
-[Download as .pdf]({{ '/assets/files/Resume_VL.pdf' | relative_url  }}){:.btn style="text-decoration:none;"}
+[Download as .pdf]({{ '/assets/files/Resume_VL.pdf' | relative_url  }}){:.btn}
 
 ## Summary
 
