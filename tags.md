@@ -12,7 +12,7 @@ permalink: /tags/
   </span>
 </div>
 <hr/>
-<div>
+<div class="tags">
 {% for tag in site.tags %}
   <h2 id="{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }}</h2>
   <ul>

@@ -12,7 +12,7 @@ permalink: /categories/
   </span>
 </div>
 <hr/>
-<div>
+<div class="categories">
 {% for category in site.categories %}
   <h2 id="{{ category[0] | slugify: 'pretty' }}">{{ category[0] }}</h2>
   <ul>
