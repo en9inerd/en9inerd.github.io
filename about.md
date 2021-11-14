@@ -24,7 +24,7 @@ And sometimes, I will describe my experiences that are related to different inte
 ## Contact Me
 <form id="contact" class="gform contact-form" action="https://script.google.com/macros/s/AKfycbyGpb8FslwEaO4_6by0ZmEI1_-Gr6lD9qXfQby9ZHN4EQgB1Vs/exec" method="POST">
   <div class="form-elements">
-    <input id="honeypot" type="text" name="honeypot" value="" />
+    <input id="itsatrap" type="text" name="itsatrap" value="" />
     <input id="name" type="text" name="name" placeholder="Name" maxlength="50" required>
     <input id="email" type="email" name="email" placeholder="Email" maxlength="254" required>
     <textarea id="body" name="body" placeholder="Message" maxlength="400" required></textarea>

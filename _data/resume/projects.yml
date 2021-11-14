@@ -1,3 +1,9 @@
+- name: TgEraser
+  desc: CLI tool to deletes all your messages from chat/channel/dialog on Telegram. <a href="https://pypi.org/project/tgeraser/">Link</a>
+  technologies: [Python, Telegram API]
+  start_date: 2019-03-01
+  end_date:
+
 - name: PlacerSA
   desc: Placer for standard cell placement (global & detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
   technologies: [C/C++, STL, GLUT, Batch scripting]
