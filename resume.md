@@ -15,6 +15,7 @@ seo:
 {% for punct in site.data.resume.summary %}
 - {{ punct }}.{% endfor %}
 
+{:style="margin-top:40px;"}
 ## Skills Summary
 
 | Skill        | Tool (if applicable) |
@@ -22,6 +23,7 @@ seo:
 {% for skill in site.data.resume.skills %}| {{ skill.type }} | {% for tool in skill.tools %}{{ tool }}{% unless forloop.last %}, {% endunless %}{% endfor %} |  
 {% endfor %}
 
+{:style="margin-top:40px;"}
 ## Experience
 
 {% assign positions=site.data.resume.positions | sort: "start_date" %}
@@ -35,7 +37,7 @@ seo:
 
 {:.pre-post}
 {{ position.title }}
-<time datetime="{{ position.start_date | date_to_xmlschema }}" style="display:block;text-align:right;">
+<time datetime="{{ position.start_date | date_to_xmlschema }}" style="display:block;">
   {{ position.start_date | date: '%B %Y' }} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>
 {% for duty in position.duties %}
@@ -46,22 +48,25 @@ seo:
 
 ## Education
 
-{% for degree in site.data.resume.degrees %}
+{% assign degrees=site.data.resume.degrees | sort: "date" %}
+{% for degree in degrees reversed %}
 
 ### {{ degree.school }}
 
 {{ degree.degree }}
-<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;text-align:right;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}&nbsp;&nbsp;&nbsp;&nbsp;Graduated: {{ degree.date | date: "%B %Y" }}</time>
+<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}&nbsp;&nbsp;&nbsp;&nbsp;Graduated: {{ degree.date | date: "%B %Y" }}</time>
 <br />
 {% endfor %}
 
 ## Projects
 
-{% for project in site.data.resume.projects %}
+{% assign projects=site.data.resume.projects | sort: "start_date" %}
+{% for project in projects reversed %}
 
+{:style="margin:0 0 16px"}
 ### {{ project.name }}
 
-<time datetime="{{ project.start_date | date_to_xmlschema }}" style="display:block;text-align:right;">
+<time datetime="{{ project.start_date | date_to_xmlschema }}" style="display:block;">
   {{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>  
 {{ project.desc }}.  
