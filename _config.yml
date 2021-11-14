@@ -5,17 +5,24 @@ author:
 
 logo: /assets/img/logo.jpg
 
+# JSON-LD
+bio:
+  gender: male
+  employer_name: Axle Informatics
+  employer_url: https://axleinfo.com/
+  job_title: Software Developer
+
 social-links:
   dribbble:
   email: vladimir@enginerd.io
   facebook:
   flickr:
-  github: eng1nerd
+  github: en9inerd
   instagram:
   linkedin: vloskutov
   pinterest:
   rss: rss # just type anything here for a working RSS icon
-  twitter: en91nerd
+  twitter:
   keybase: en9inerd
   stackoverflow: users/story/6754678 # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -25,8 +32,9 @@ social:
   name: Vladimir Loskutov
   links: 
     - https://www.linkedin.com/in/vloskutov
-    - https://github.com/eng1nerd
+    - https://github.com/en9inerd
     - https://keybase.io/en9inerd
+    - https://stackoverflow.com/users/story/6754678
 
 disqus: enginerd
 
@@ -83,7 +91,7 @@ plugins:
 sass:
   style: compressed
 
-remote_theme: eng1nerd/hacker
+remote_theme: en9inerd/hacker
 
 exclude:
   - Gemfile
