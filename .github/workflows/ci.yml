@@ -7,12 +7,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Vale
-        uses: errata-ai/vale-action@v1.3.0
+        uses: errata-ai/vale-action@v1.4.0
         with:
-          styles: |
-            https://github.com/benbalter/vale-styles/releases/latest/download/Microsoft.zip
-          config: https://raw.githubusercontent.com/benbalter/benbalter.github.com/master/.vale.ini
-          files: "*.md _posts/*.md resume_positions/*.md"
+        styles: |
+          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+        config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
+          files: "*.md _posts/*.md _drafts/*.md"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   code:
