@@ -1,5 +1,5 @@
 - name: TgEraser
-  desc: CLI tool to deletes all your messages from chat/channel/dialog on Telegram. <a href="https://pypi.org/project/tgeraser/">Link</a>
+  desc: CLI tool to deletes all your messages from chat/channel/dialog on Telegram. <a href="https://pypi.org/project/tgeraser/">PyPI package</a>
   technologies: [Python, Telegram API]
   start_date: 2019-03-01
   end_date:

@@ -1,9 +1,12 @@
 - employer: Axle Informatics
-  title: Software Developer
+  title: Senior Software Developer
   location: Rockville, MD
   start_date: 2020-02-18
   end_date:
   duties:
+  - "Designed and implemented API using LoopBack framework for Node.js app (transpiled TypeScript) that uses: flexible objects tree layout representation with grouping by object levels and role-based and user-based access control"
+  - Re-implemented Node.js (transpiled TypeScript) app that processes 2d and 3d Electron Microscopy data to get Client Credentials Flow instead of User Authentication and bring new client requested features
+  - "Participated in legacy Node.js app (transpiled TypeScript) upgrade: adaptation for supporting multiple databases (SharePoint and MySQL) using JavaScript/TypeScript; Angular components re-implementation according to client's requirements; built REST API using Express.js framework"
 
 - employer: Burson Cohn & Wolfe
   title: Software Engineer
@@ -23,7 +26,7 @@
   - Software development and maintenance that was oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
   - Automated AWS, including Automating Big Data processing with Python and Boto3
   - Data Warehousing based on Amazon Redshift
-  - Reduced company’s monthly bill for Redshift dramatically
+  - Reduced company's monthly bill for Redshift dramatically
   - Built and deployed Docker containers to break up monolithic app into microservices, improving developer workflow, increasing scalability, and optimizing speed
   - Supported and developed a Redshift report that generates hundreds of thousands of dollars of revenue per year
   - Used Scrum development methodology and Test Driven Development
@@ -60,5 +63,5 @@
   - Provided support for local office network in working condition and set up of office software and equipment
   - Configured and maintained Windows and *nix servers, and other network equipment
   - Experience of using RS-232, RS-485 communications (corresponding protocols) for debugging via serial console, debrick and firmware replacement of network devices
-  - Installed and maintained Apollo Security’s Access Control and Alarm Monitoring System (APACS). Performed firmware replacement, configuration, and interaction for Apollo’s controllers
+  - Installed and maintained Apollo Security's Access Control and Alarm Monitoring System (APACS). Performed firmware replacement, configuration, and interaction for Apollo's controllers
   - Configured and maintained PBX hardware and Asterisk PBX software
