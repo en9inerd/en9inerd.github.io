@@ -7,15 +7,16 @@ seo:
   type: person
 ---
 
-{:style="text-align:right;"}
-[Download as .pdf]({{ '/assets/files/Resume_VL.pdf' | relative_url  }}){:.btn}
+{: .resume-btn .cf}
+[Download as .pdf]({{ '/assets/files/Resume_VL.pdf' | relative_url }}){: .btn}
 
+{:style="margin-top:1.8em;"}
 ## Summary
 
 {% for punct in site.data.resume.summary %}
 - {{ punct }}.{% endfor %}
 
-{:style="margin-top:40px;"}
+{:style="margin-top:1.8em;"}
 ## Skills Summary
 
 | Skill        | Tool (if applicable) |
@@ -23,7 +24,7 @@ seo:
 {% for skill in site.data.resume.skills %}| {{ skill.type }} | {% for tool in skill.tools %}{{ tool }}{% unless forloop.last %}, {% endunless %}{% endfor %} |  
 {% endfor %}
 
-{:style="margin-top:40px;"}
+{:style="margin-top:1.8em;"}
 ## Experience
 
 {% assign positions=site.data.resume.positions | sort: "start_date" %}
@@ -35,15 +36,16 @@ seo:
 
 {% endunless %}
 
-{:.pre-post}
-{{ position.title }}
-<time datetime="{{ position.start_date | date_to_xmlschema }}" style="display:block;">
+{:style="margin-bottom: 0;"}
+#### {{ position.title }}
+
+<time datetime="{{ position.start_date | date_to_xmlschema }}" style="font-size:14px;">
   {{ position.start_date | date: '%B %Y' }} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
 </time>
 {% for duty in position.duties %}
 - {{ duty }}{% endfor %}
 {% assign previous_employer=position.employer %}
-<br />
+{:style="margin-top:1.8em;"}
 {% endfor %}
 
 ## Education
@@ -53,9 +55,11 @@ seo:
 
 ### {{ degree.school }}
 
+{:style="margin-bottom: 0;"}
 {{ degree.degree }}
-<time datetime="{{ degree.date | date_to_xmlschema }}" style="display:block;">{% if degree.GPA %}GPA: {{ degree.GPA }}{% endif %}Graduated: {{ degree.date | date: "%B %Y" }}</time>
-<br />
+<time datetime="{{ degree.date | date_to_xmlschema }}">{% if degree.GPA %}GPA: {{ degree.GPA }}<span style="display: inline-block; width: 2.5em;"></span>{% endif %}Graduated: {{ degree.date | date: "%B %Y" }}</time>
+
+{:style="margin-top:1.8em;"}
 {% endfor %}
 
 ## Projects
@@ -63,13 +67,14 @@ seo:
 {% assign projects=site.data.resume.projects | sort: "start_date" %}
 {% for project in projects reversed %}
 
-{:style="margin:0 0 16px"}
 ### {{ project.name }}
+{: .remove-bottom-margin}
 
-<time datetime="{{ project.start_date | date_to_xmlschema }}" style="display:block;">
+<time datetime="{{ project.start_date | date_to_xmlschema }}">
   {{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
-</time>  
+</time>
 {{ project.desc }}.  
-<span class="pre-post">Technologies:</span> {{ project.technologies | join: ', ' }}<br />
-<br />
+Technologies: {{ project.technologies | join: ', ' }}
+
+{:style="margin-top:1.8em;"}
 {% endfor %}
