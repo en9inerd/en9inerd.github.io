@@ -5,4 +5,6 @@ permalink: /repos/
 ---
 
 {% for repository in site.github.public_repositories %}{% if site.show_forks or repository.fork == false %}
-  * [{{ repository.name }}]({{ repository.html_url }})<br />{{ repository.description }}{% endif %}{% endfor %}
+  * [{{ repository.name }}]({{ repository.html_url }})<br />{{ repository.description }}{% endif %}
+  {:style="margin-top:1em;"}
+{% endfor %}
