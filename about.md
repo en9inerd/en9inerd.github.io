@@ -8,18 +8,12 @@ seo:
 
 > ### You can see my [resume]({{ site.baseurl }}{% link resume.md %}) and send me email or a DM on LinkedIn or use [contact form]({{ page.url }}#contact).
 
-{:refdef: style="text-align: center;"}
+{:style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
-{: refdef}
 
-My name is Vladimir, I'm a software developer whose most interests are related to automating data processing (ETL tools) and automating infrastructure (mostly AWS infrastructure) using AWS, Python, Ubuntu, Docker, bash, and more. 
+I'm a software developer whose most interests are related to software development and automating data processing (ETL tools) using JavaScript/TypeScript, Node.js, Python, AWS services, and more.
 
-In my spare time, I help my wife with photography website based on Jekyll, implement some scripts based on Telegram API and other things just for fun. Also, I enjoy hiking and playing video games. Right now I live in Washington DC area, USA.
-
-## Why This Blog
-
-This blog is a summary of my learning process of different tech things that I'm interested in. It also serves the purpose of helping people with similar issues that I had. 
-And sometimes, I will describe my experiences that are related to different interviews and life situations.
+In my spare time, I help my wife with photography website based on Jekyll and which is hosted on Github and sometimes I implement some scripts/tools based on Telegram API and other things just for fun. Also, I enjoy hiking and playing video games (I like colony simulators like RimWorld or Space Haven).
 
 ## Contact Me
 <form id="contact" class="gform contact-form" action="https://script.google.com/macros/s/AKfycbyGpb8FslwEaO4_6by0ZmEI1_-Gr6lD9qXfQby9ZHN4EQgB1Vs/exec" method="POST">
