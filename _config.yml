@@ -38,6 +38,8 @@ social:
 
 disqus: enginerd
 
+contact_form_action: https://script.google.com/macros/s/AKfycbyGpb8FslwEaO4_6by0ZmEI1_-Gr6lD9qXfQby9ZHN4EQgB1Vs/exec
+
 pgp-key:
   show: true
   url: https://keybase.io/en9inerd/pgp_keys.asc?fingerprint=3a6b30b1c535625d51caa2f0232a56bcff4eaef2
