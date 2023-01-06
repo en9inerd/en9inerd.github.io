@@ -4,9 +4,11 @@
   start_date: 2020-02-18
   end_date:
   duties:
-  - "Designed and implemented API using LoopBack framework for Node.js app (transpiled TypeScript) that uses: flexible objects tree layout representation with grouping by object levels and role-based and user-based access control"
-  - Re-implemented Node.js (transpiled TypeScript) app that processes 2d and 3d Electron Microscopy data to get Client Credentials Flow instead of User Authentication and bring new client requested features
-  - "Participated in legacy Node.js app (transpiled TypeScript) upgrade: adaptation for supporting multiple databases (SharePoint and MySQL) using JavaScript/TypeScript; Angular components re-implementation according to client's requirements; built REST API using Express.js framework"
+  - Implemented API wrapper with NestJS framework around OMERO API and OMERO CLI to provide ability to transform OMERO objects into internal company project objects and upload sample images from private shared directory to OMERO central repository
+  - Developed Angular components responsible for lab samples data management and which provide different layouts for tree representation and data grouping by different properties
+  - Built API with NestJS framework to operate with tree-based lab samples data structure, it provides ability to use different hierarchies (level sets), and it has role-based and user-based access control
+  - Re-implemented Node.js CLI app with oclif framework that processes 2d and 3d Electron Microscopy data to provide Client Credentials Flow instead of Authorization Code Flow and brings new client requested features
+  - "Participated in upgrading legacy Angular app and back-end Node.js app: adaptation for supporting multiple databases (SharePoint and MySQL) through LoopBack Juggler; Angular components re-implementation according to client's requirements; REST API implementation with LoopBack framework"
 
 - employer: Burson Cohn & Wolfe
   title: Software Engineer
