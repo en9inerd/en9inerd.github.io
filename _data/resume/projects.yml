@@ -1,8 +1,14 @@
+- name: TeleBuilder
+  desc: Simple framework for building Telegram bots based on gramjs. <a href="https://www.npmjs.com/package/telebuilder">NPM package</a> 
+  technologies: [Telegram API, MTProto, JavaScript, TypeScript, GramJS]
+  start_date: 2022-07-01
+  end_date:
+
 - name: TgEraser
   desc: CLI tool to delete all your messages from chat/channel/dialog on Telegram. <a href="https://pypi.org/project/tgeraser/">PyPI package</a>
   technologies: [Python, Telegram API]
   start_date: 2019-03-01
-  end_date:
+  end_date: 2021-09-07
 
 - name: PlacerSA
   desc: Placer for standard cell placement (global & detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
