@@ -1,7 +1,6 @@
 ---
 title: "Telegram message eraser"
 date: 2019-03-22 18:09
-category: Just for fun
 tags: [telegram-api, python]
 ---
 

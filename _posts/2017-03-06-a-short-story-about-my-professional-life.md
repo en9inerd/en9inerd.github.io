@@ -1,7 +1,6 @@
 ---
 title: "A short story about my professional life"
 date: 2017-03-06 22:07
-category: About myself
 tags: [bio, Computer Science]
 ---
 

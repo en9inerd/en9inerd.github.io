@@ -26,7 +26,6 @@ social-links:
   keybase: en9inerd
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
 
 social:
   name: Vladimir Loskutov
@@ -34,7 +33,6 @@ social:
     - https://www.linkedin.com/in/vloskutov
     - https://github.com/en9inerd
     - https://keybase.io/en9inerd
-    - https://stackoverflow.com/users/story/6754678
 
 disqus: enginerd
 

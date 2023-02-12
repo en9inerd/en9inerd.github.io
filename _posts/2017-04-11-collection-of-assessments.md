@@ -1,7 +1,6 @@
 ---
 title: "Collection of interview's assessment"
 date: 2017-04-11 22:13
-category: Assessments
 tags: [Python, C/C++, assessment]
 ---
 

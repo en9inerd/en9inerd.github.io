@@ -49,7 +49,3 @@
 - resource: youtube
   url: https://youtube.com/
   icon: youtube
-
-- resource: googleplus
-  url: https://plus.google.com/
-  icon: gplus

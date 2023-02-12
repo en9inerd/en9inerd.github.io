@@ -2,7 +2,6 @@
 layout: null
 disallows:
   - /tags*
-  - /categories*
   - /404.html
   - /assets/*
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Back in the job market again"
 date: 2019-03-01 09:29
-category: About myself
 tags: [job, bio]
 ---
 
