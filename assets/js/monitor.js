@@ -2,7 +2,7 @@
   const EVENT_NAME = 'website_visited';
   const WEBHOOKS_KEY = 'cP7cTI1ZLRjZacB2QoWtvJ';
   try {
-    const { ip } = await fetch('https://api.ipify.org?format=json').then(res => res.json());
+    const { ip } = await fetch('https://cors-proxy.enginerd.workers.dev/').then(res => res.json());
     const { href: url } = window.location;
     const screenDimensions = `${window.screen.width} x ${window.screen.height}`;
     const { referrer } = document;
