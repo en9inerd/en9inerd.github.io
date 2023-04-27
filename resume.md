@@ -7,10 +7,9 @@ seo:
   type: person
 ---
 
-{: .resume-btn .cf}
+{: .resume-btn}
 [Download as .pdf]({{ '/assets/files/Resume_VL.pdf' | relative_url }}){: .btn}
 
-{:style="margin-top:1.8em;"}
 ## Summary
 
 {% for punct in site.data.resume.summary %}
