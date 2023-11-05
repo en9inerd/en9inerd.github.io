@@ -4,7 +4,7 @@ date: 2023-05-29 22:22
 tags: [telegram, api, nodejs, gramjs, typescript, bot]
 ---
   
-[[ NPM package ]](https://www.npmjs.com/package/telebuilder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ Github Repo ]](https://github.com/en9inerd/telebuilder)
+[[ NPM package ]](https://www.npmjs.com/package/telebuilder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ GitHub repo ]](https://github.com/en9inerd/telebuilder)
 
 In my spare time, I find joy in tinkering with small open source projects, one of which is a straightforward Telegram bot framework called TeleBuilder. This framework is powered by the [GramJS library](https://www.npmjs.com/package/telegram) and is written in TypeScript. I've primarily developed it for personal use to implement various bots tailored to my specific needs. However, TeleBuilder also serves as a testing ground for experimenting with new TypeScript features and approaches.
 
