@@ -1,17 +1,14 @@
 - type: Programming Languages
   tools: [JavaScript/TypeScript, Python, C/C++, Bash]
 
-- type: Frameworks and tools
-  tools: [LoopBack, Express.js, Django, Angular, TkInter]
+- type: Frameworks
+  tools: [Angular, NestJS, LoopBack, Express.js, Django]
 
 - type: Databases
   tools: [MongoDB, PostgreSQL, MySQL, Redis, SQLite]
 
 - type: Web
   tools: [HTML, CSS, Liquid, XML]
-
-- type: Platforms
-  tools: [Windows, Linux]
 
 - type: AWS Services
   tools: [EC2, S3, DynamoDB, RDS, Redshift, VPC, IAM, ElastiCache, Parameter Store, Lambda]
