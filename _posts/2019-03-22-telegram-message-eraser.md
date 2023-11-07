@@ -4,8 +4,12 @@ date: 2019-03-22 18:09
 tags: [telegram-api, python]
 ---
 
-[[ PyPI ]](https://pypi.org/project/tgeraser/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ GitHub ]](https://github.com/en9inerd/tgeraser)
+[[ PyPI package ]](https://pypi.org/project/tgeraser/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ GitHub repo ]](https://github.com/en9inerd/tgeraser)
 
-I'm using Telegram messenger for the past few years and official Telegram clients still don't have the ability to delete all of your own messages from chat/channel/dialog by one click without administrator help. So, that's why I implemented interactive command line tool to solve this problem using Telethon library. It understands YAML (by default), JSON, and environment variables to specify credentials.
+If you've been using Telegram for a while, you might have noticed that the official Telegram clients lack a simple way to delete all your own messages from a chat or channel with just one click, especially if you don't have admin privileges. Frustrating, right?
 
-Perhaps, it will be implemented also as Flask web app in the future to give good usability for users.
+That's where TgEraser comes to the rescue. I've implemented an interactive command-line tool that leverages the power of the Telethon library to solve this problem. This Python tool can work with YAML (by default), JSON, and environment variables to help you specify your credentials and seamlessly erase your messages.
+
+Say goodbye to manually deleting messages one by one; with TgEraser, you can regain control over your chat history with just a few simple commands.
+
+Feel free to contribute, suggest improvements, or report any issues on the GitHub repository. Happy messaging! :rocket:

@@ -1,17 +1,23 @@
 ---
-title: "A short story about my professional life"
+title: "My Professional Path"
 date: 2017-03-06 22:07
-tags: [bio, Computer Science]
-published: false
+tags: [bio, software enginnering]
 ---
 
-One person asked me to write short story about "How you fell in love with coding?"
+During a recent job interview, I was asked to share a brief account of "How did I fall in love with coding?" The question made me reflect on my journey, and while it may be a common tale, I believe it's worth documenting.
 
-**A little bit about me:** since I was seven, the IT industry was always around me. It was very interesting to understand how one or the other device works, especially how hardware like CPU and GPU are made. As a result, I have always been working with the hardware from ZX Spectrum to the present day hardware - in fact, since I was fourteen, I was interested in assembling PC. <!--more-->
+**A Glimpse into My Early Years:** My enthrallment with the IT industry began at a young age. From the age of seven, I was surrounded by the world of technology. I found it fascinating to research the inner workings of various devices, particularly the intricate components like CPUs and GPUs. This curiosity led me to tinker with hardware, starting with the ZX Spectrum and progressing to today's sophisticated systems. Remarkably, by the age of fourteen, I was already assembling my own PCs. <!--more-->
 
-My dad is a perfect example for me, I always wanted to be someone like him. When I was little, he was a programmer on assembler. Looking at him, I developed big interest toward computers, how they work, and how to develop programs that calculate what is necessary.
+My father served as a profound inspiration. He was a seasoned assembler programmer, and watching him work ignited my passion for computers, their functionality, and the art of creating programs that could calculate and accomplish tasks.
 
-In school, I expressed interest in the Turbo Pascal, Delphi languages and HTML/CSS, and when I was seventeen, I started to get involved in front-end and back-end development (HTML, CSS, and a little PHP). 
-I did not go to university right after school, instead, I took a year off and decided to think about what am I going to do in my life. During that time, I helped couple of kindergartens with building websites, researched and modified different exploits on Perl. Then it clicked, I realized that I loved developing and making something new using computers.
+As I progressed through school, my interest in programming languages grew. I dabbled in Turbo Pascal, Delphi, HTML, and CSS. By the time I turned seventeen, I was delving into front-end and back-end development, honing my skills in HTML, CSS, and venturing into PHP.
 
-**A little more about my professional history:** during my sophomore year in university, I became a Technical Specialist that included system administration, maintenance of access control systems, and etc. Then I testing of network equipment (SoC RTL89xxC) based on OpenWrt and Octopus at Angstrem-Telecom. After I got master’s degree in MIET (Moscow Institute of Electronic Technology), I gained knowledge in automating physical design of integrated circuits. During my education, most of the experience was in C, C++, Python and implementation algorithms for standard cell placement, routing, and etc. In addition, the theme of my Master's dissertation was: “Implementation of a standard cell global placement tool based on modified algorithm “simulated annealing” on stage topological design”. Before I moved to USA, my life and profession were associated with IT-industry.
+Instead of rushing into university after completing high school, I chose to take a year off to deliberate on my future path. During this time, I assisted a few daycare centers in developing their websites. I also delved into the world of Perl, researching and modifying exploits. It was during this year of exploration that it became evident – I had found my true calling in software development, and I reveled in the art of creating and innovating with computers.
+
+**Expanding My Professional Horizon:** As I embarked on my university journey, I pursued a degree in Computer Science. During my sophomore year, I had the role of a Technical Specialist, encompassing responsibilities such as system administration and the maintenance of access control systems.
+
+Subsequently, I was involved in the testing of network equipment, specifically SoC RTL89xxC, based on OpenWrt and Octopus, at Angstrem-Telecom. Upon earning my master's degree from the Moscow Institute of Electronic Technology (MIET), I delved into the world of automating the physical design of integrated circuits.
+
+Throughout my academic pursuit, I immersed myself in programming languages like C, C++, and Python, and delved into the implementation of algorithms for standard cell placement and routing. The culmination of my educational journey was marked by my Master's dissertation, which revolved around the implementation of a standard cell global placement tool utilizing a modified algorithm called "simulated annealing" in the realm of topological design.
+
+Before my move to the United States, my life and profession were twisted around with the IT industry. This narrative encapsulates my unwavering passion for coding, which has guided my career path and continues to fuel my dedication to the world of software engineering.
