@@ -38,9 +38,7 @@ seo:
 {:style="margin-bottom: 0;"}
 #### {{ position.title }}
 
-<time datetime="{{ position.start_date | date_to_xmlschema }}" style="font-size:14px;">
-  {{ position.start_date | date: '%B %Y' }} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
-</time>
+<time datetime="{{ position.start_date | date_to_xmlschema }}" style="font-size:14px;">{{ position.start_date | date: '%B %Y' }} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}</time>
 {% for duty in position.duties %}
 - {{ duty }}{% endfor %}
 {% assign previous_employer=position.employer %}
@@ -69,9 +67,7 @@ seo:
 ### {{ project.name }}
 {: .remove-bottom-margin}
 
-<time datetime="{{ project.start_date | date_to_xmlschema }}">
-  {{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}
-</time>
+<time datetime="{{ project.start_date | date_to_xmlschema }}">{{ project.start_date | date: '%B %Y' }} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}</time>
 {{ project.desc }}.  
 Technologies: {{ project.technologies | join: ', ' }}
 

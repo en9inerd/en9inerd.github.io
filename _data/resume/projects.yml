@@ -1,17 +1,17 @@
 - name: Gromozeka Bot
-  desc: Bot to delete all of your messages from chat/channel/dialog on Telegram without requiring admin privileges. <a href="https://github.com/en9inerd/gromozeka-bot">GitHub repo</a> 
+  desc: Bot to delete all of your messages from chat/channel/dialog on Telegram without requiring admin privileges. <a href="https://github.com/en9inerd/gromozeka-bot">GitHub Repo</a> 
   technologies: [Telegram API, MTProto, JavaScript, TypeScript, TeleBuilder]
   start_date: 2022-07-01
   end_date: 2023-11-01
 
 - name: TeleBuilder
-  desc: Simple framework based on GramJS for building Telegram bots. <a href="https://www.npmjs.com/package/telebuilder">NPM package</a> 
+  desc: Simple framework based on GramJS for building Telegram bots. <a href="https://www.npmjs.com/package/telebuilder">NPM Package</a> 
   technologies: [Telegram API, MTProto, JavaScript, TypeScript, GramJS]
   start_date: 2022-07-01
   end_date:
 
 - name: TgEraser
-  desc: CLI tool to delete all your messages from chat/channel/dialog on Telegram. <a href="https://pypi.org/project/tgeraser/">PyPI package</a>
+  desc: CLI tool to delete all your messages from chat/channel/dialog on Telegram. <a href="https://pypi.org/project/tgeraser/">PyPI Package</a>
   technologies: [Python, Telegram API]
   start_date: 2019-03-01
   end_date: 2021-09-07
