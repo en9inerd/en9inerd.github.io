@@ -1,5 +1,5 @@
 - name: Gromozeka Bot
-  desc: Bot to assist the user in deleting all of their messages from a Telegram chat, channel, or conversation, even without admin privileges
+  desc: Bot to assist the user in deleting all of their messages from chat, channel, or conversation on Telegram without requiring admin privileges
   technologies: [Telegram API, TypeScript, GramJS, TeleBuilder]
   link:
     text: GitHub Repo

@@ -4,7 +4,8 @@
   start_date: 2020-02-18
   end_date:
   duties:
-  - Implemented API wrapper with NestJS framework around OMERO API and OMERO CLI to provide ability to transform OMERO objects into internal company project objects and upload sample images from private shared directory to OMERO central repository
+  - Developed a robust microscopy image import and processing pipeline in a NestJS application, utilizing BullMQ for task queuing and Redis for caching
+  - Implemented a NestJS API wrapper around OMERO API and OMERO CLI, facilitating the transformation of OMERO objects into internal project entities and enabling the seamless upload of microscopy images from private directories to the OMERO central repository
   - Developed Angular components responsible for lab samples data management and which provide different layouts for tree representation and data grouping by different properties
   - Built API with NestJS framework to operate with tree-based lab samples data structure, it provides ability to use different hierarchies (level sets), and it has role-based and user-based access control
   - Re-implemented Node.js CLI app with oclif framework that processes 2d and 3d Electron Microscopy data to provide Client Credentials Flow instead of Authorization Code Flow and brings new client requested features
