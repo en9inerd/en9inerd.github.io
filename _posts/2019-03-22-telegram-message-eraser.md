@@ -1,7 +1,7 @@
 ---
 title: "Telegram message eraser"
 date: 2019-03-22 18:09
-tags: [telegram-api, python]
+tags: [telegram api, python]
 ---
 
 [[ PyPI Package ]](https://pypi.org/project/tgeraser/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ GitHub Repo ]](https://github.com/en9inerd/tgeraser)

@@ -1,7 +1,7 @@
 ---
 title: Overcoming CORS Restrictions with a Cloudflare Workers-Based Proxy
 date: 2023-04-17 22:22
-tags: [CORS, proxy, Cloudflare-workers, Fetch API]
+tags: [cors proxy, cloudflare workers, fetch api]
 ---
 
 Cross-Origin Resource Sharing (CORS) restrictions can be a major obstacle for web developers, preventing them from accessing data from different domains using the Fetch API. However, there is a solution that allows you to bypass these restrictions and simplify your development process - a Cloudflare Workers-based proxy.<!--more-->

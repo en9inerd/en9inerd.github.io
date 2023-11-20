@@ -36,7 +36,7 @@ social:
 
 disqus: enginerd
 
-contact_form_action: https://script.google.com/macros/s/AKfycbyGpb8FslwEaO4_6by0ZmEI1_-Gr6lD9qXfQby9ZHN4EQgB1Vs/exec
+contact_form_script_id: AKfycby7x6xohzq6X0KNiW04ZRhrAblqsKfmUIvzstK4UCXUk4RNh2pe1ClwTlZ8EEkgFwDU
 
 monitor: true
 
@@ -48,6 +48,7 @@ pgp-key:
 google_analytics: G-XZRL66P63S
 
 paginate: 5
+paginate_path: "/page/:num/"
 
 permalink: pretty
 

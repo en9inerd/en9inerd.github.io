@@ -1,7 +1,7 @@
 ---
 title: TeleBuilder - Telegram bot framework
 date: 2023-05-29 22:22
-tags: [telegram, api, nodejs, gramjs, typescript, bot]
+tags: [telegram api, nodejs, typescript, bot]
 ---
   
 [[ NPM Package ]](https://www.npmjs.com/package/telebuilder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ GitHub Repo ]](https://github.com/en9inerd/telebuilder)

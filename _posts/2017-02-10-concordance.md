@@ -1,10 +1,10 @@
 ---
 title: "Python's Trade-offs: Performance vs. Ease of Use"
 date: 2017-02-10 22:07
-tags: [C/C++, Python, hashtable, assessment]
+tags: [c/c++, python, assessment, data structures, performance]
 ---
 
-When preparing for a job interview, one of the tasks I encountered was a problem that emphasized proficiency in the C programming language and data structures. The task, which you can find [this]({{ site.github.owner_url }}/concordance#concordance), revolved around efficient search and insertion operations for key-value pairs. The keys, unique words extracted from an input document, needed to map to an array of line numbers in the document where the word appeared. Given the frequent need for search and insert operations, it was evident that hash tables would be the ideal data structure for this task, boasting an average and amortized case complexity of *O(1)*. <!--more-->
+When preparing for a job interview, one of the tasks I encountered was a problem that emphasized proficiency in the C programming language and data structures. The task, which you can find [here]({{ site.github.owner_url }}/concordance#concordance), revolved around efficient search and insertion operations for key-value pairs. The keys, unique words extracted from an input document, needed to map to an array of line numbers in the document where the word appeared. Given the frequent need for search and insert operations, it was evident that hash tables would be the ideal data structure for this task, boasting an average and amortized case complexity of *O(1)*. <!--more-->
 
 For my implementation of the hash table, I drew inspiration from the one presented in James Aspnes's [PineWiki](http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)HashTables.html?highlight=(CategoryAlgorithmNotes)). While this implementation is straightforward and serves well for educational purposes, it falls short when it comes to production-level performance. If you seek a robust, high-performance hash table solution for C, consider exploring alternatives like [jwHash](https://github.com/watmough/jwHash).
 

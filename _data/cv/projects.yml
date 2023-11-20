@@ -1,0 +1,35 @@
+- name: Gromozeka Bot
+  desc: Bot to assist the user in deleting all of their messages from a Telegram chat, channel, or conversation, even without admin privileges
+  technologies: [Telegram API, TypeScript, GramJS, TeleBuilder]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/gromozeka-bot
+  start_date: 2022-07-01
+  end_date: 2023-11-01
+
+- name: TeleBuilder
+  desc: Simple command message-centric framework, acting as an additional abstraction layer built on top of GramJS
+  technologies: [Telegram API, TypeScript, GramJS]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/telebuilder
+  start_date: 2022-07-01
+  end_date:
+
+- name: TgEraser
+  desc: CLI tool to delete all user's messages from chat, channel, or conversation on Telegram without requiring admin privileges
+  technologies: [Python, Telegram API, Telethon]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/tgeraser
+  start_date: 2019-03-01
+  end_date: 2019-03-01
+
+- name: PlacerSA
+  desc: Placer for standard cell placement (global & detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
+  technologies: [C/C++, STL, GLUT, Batch scripting]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/SimAn
+  start_date: 2014-11-01
+  end_date: 2015-05-01

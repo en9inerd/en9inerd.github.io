@@ -1,7 +1,7 @@
 ---
 title: Goodbye, Gromozeka Bot
 date: 2023-11-05 12:10
-tags: [telegram, api, nodejs, telebuilder, typescript, bot]
+tags: [telegram api, nodejs, typescript, bot, fetch api]
 ---
 
 The [Gromozeka bot](https://github.com/en9inerd/gromozeka-bot) was implemented to assist Telegram users in deleting all of their messages from a chat, channel, or conversation, even without admin privileges. Official Telegram clients lack a straightforward solution for a mass message deletion, requiring users to manually select and delete messages, with a limit of 100 at a time. Gromozeka bot was aimed to solve this inconvenience.
