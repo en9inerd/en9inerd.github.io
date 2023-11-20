@@ -13,7 +13,7 @@ seo:
 ## Summary
 
 {% for punct in site.data.cv.summary %}
-- {{ punct }}.{% endfor %}
+- {{ punct }}{% endfor %}
 
 {:style="margin-top:1.8em;"}
 ## Skills Summary
@@ -54,7 +54,7 @@ seo:
 #### Used: {{ project.technologies | join: ', ' }}
 
 <time datetime="{{ project.start_date | date_to_xmlschema }}" class="smaller">{{ project.start_date | date: '%B %Y' }}{% if project.start_date != project.end_date %} &mdash; {% if project.end_date %}{{ project.end_date | date: '%B %Y' }}{% else %}Present{% endif %}{% endif %}</time>
-{{ project.desc }}.
+{{ project.desc }}
 
 {:style="margin-top:1.8em;"}
 {% endfor %}

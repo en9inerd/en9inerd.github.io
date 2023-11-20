@@ -26,7 +26,7 @@
   end_date: 2019-03-01
 
 - name: PlacerSA
-  desc: Placer for standard cell placement (global & detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
+  desc: Placer for standard cell placement (global and detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
   technologies: [C/C++, STL, GLUT, Batch scripting]
   link:
     text: GitHub Repo
