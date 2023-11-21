@@ -8,7 +8,7 @@
   end_date: 2023-11-01
 
 - name: TeleBuilder
-  desc: Simple command message-centric framework, acting as an additional abstraction layer built on top of GramJS
+  desc: Simple command message-centric Telegram bot framework, acting as an additional abstraction layer built on top of GramJS
   technologies: [Telegram API, TypeScript, GramJS]
   link:
     text: GitHub Repo
