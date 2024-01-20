@@ -5,14 +5,16 @@
     const screenDimensions = `${window.screen.width} x ${window.screen.height}`;
     const { referrer } = document;
     const { userAgent } = navigator;
+    const hasTouchScreen = navigator?.maxTouchPoints > 0;
     await fetch(NOTIFIER, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        url: url,
-        screenDimensions: screenDimensions,
-        referrer: referrer,
-        userAgent: userAgent,
+        url,
+        screenDimensions,
+        referrer,
+        userAgent,
+        hasTouchScreen
       }),
     });
   } catch (error) {
