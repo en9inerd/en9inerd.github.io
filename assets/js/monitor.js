@@ -1,5 +1,5 @@
 (async function () {
-  const NOTIFIER = 'https://visitor-notifier.enginerd.workers.dev/';
+  const NOTIFIER = 'https://connect.enginerd.io:1880/nodes/cP7cTI1ZLRjZacB2QoWtvJ/visitor-notifier';
   try {
     const { href: url } = window.location;
     const screenDimensions = `${window.screen.width} x ${window.screen.height}`;
@@ -9,10 +9,10 @@
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        URL: url,
-        'Screen Dimensions': screenDimensions,
-        Referrer: referrer,
-        'User Agent': userAgent,
+        url: url,
+        screenDimensions: screenDimensions,
+        referrer: referrer,
+        userAgent: userAgent,
       }),
     });
   } catch (error) {
