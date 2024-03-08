@@ -11,7 +11,7 @@ Hello, I'm Vladimir, a Full Stack Engineer with a passion for software developme
 {:style="text-align: center;"}
 {% avatar {{ site.github.owner_name }} size=200 %}
 
-In my spare time, I delve into Web Services Integration using tools like IFTTT and Node-RED, exploring the capabilities of Cloudflare Workers and KV for efficient serverless solutions, bot development for Telegram platform, and other things that are related to automation stuff just for fun. When I'm not immersed in the tech world, I enjoy hiking and playing video games, particularly colony simulators like RimWorld and Space Haven.
+In my spare time, I delve into web services integration using tools like Node-RED, solve Advent of Code puzzles using the C programming language, engage in bot development for the Telegram platform, and explore other activities related to automation just for fun. When I'm not immersed in the tech world, I enjoy hiking and playing video games, particularly colony simulators like RimWorld and Space Haven.
 
 ## Let's connect
 
