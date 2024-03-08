@@ -38,6 +38,20 @@ contact_form_script_id: AKfycby7x6xohzq6X0KNiW04ZRhrAblqsKfmUIvzstK4UCXUk4RNh2pe
 
 monitor: true
 
+giscus:
+  repo: en9inerd/en9inerd.github.io
+  repo_id: MDEwOlJlcG9zaXRvcnk4NjUwMzI3NQ==
+  category: Comments
+  category_id: DIC_kwDOBSfva84CdzzY
+  mapping: og:title
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  theme: dark
+  lang: en
+  loading: lazy
+  crossorigin: anonymous
+
 pgp-key:
   show: true
   url: https://keybase.io/en9inerd/pgp_keys.asc?fingerprint=3a6b30b1c535625d51caa2f0232a56bcff4eaef2
