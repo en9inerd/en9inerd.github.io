@@ -8,6 +8,7 @@ repo_names:
   - "jekyll-post-bot"
   - "gromozeka-bot"
   - "cors-proxy"
+  - "mongodb-ts-npm-package-boilerplate"
 ---
 
 {% for repo_name in page.repo_names %}
