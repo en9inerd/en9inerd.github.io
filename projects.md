@@ -14,5 +14,4 @@ repo_names:
 {% for repo_name in page.repo_names %}
   {% assign repository=site.github.public_repositories | where: "name", repo_name | first %}
   * [{{ repository.name }}]({{ repository.html_url }})<br />{{ repository.description }}
-  {:style="margin-top:1em;"}
 {% endfor %}
