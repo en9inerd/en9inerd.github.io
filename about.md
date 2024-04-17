@@ -1,12 +1,14 @@
 ---
 layout: page
 title: About
+description: Vladimir is a Full Stack Engineer with a passion for software development and data processing automation. His expertise lies in JavaScript/TypeScript, Node.js, Python, and C programming.
 permalink: /about/
+image: /assets/images/logo.webp
 seo:
   type: person
 ---
 
-Hello, I'm Vladimir, a Full Stack Engineer with a passion for software development and data processing automation. My expertise lies in JavaScript/TypeScript, Node.js, Python, and some AWS services. At the moment, I specialize in building and maintaining web applications using frameworks like Angular, NestJS, and Express.js. Find more information about my skills and experience in my [Curriculum Vitae]({{ site.baseurl }}{% link cv.md %}).
+Hello, I'm Vladimir, a Full Stack Engineer with a passion for software development and data processing automation. My expertise lies in JavaScript/TypeScript, Node.js, Python, and C programming. At the moment, I specialize in building and maintaining web applications using frameworks like Angular, NestJS, and Express.js. Find more information about my skills and experience in my [Curriculum Vitae]({{ site.baseurl }}{% link cv.md %}).
 
 <p style="text-align: center;">{% avatar {{ site.github.owner_name }} size=200 %}</p>
 
