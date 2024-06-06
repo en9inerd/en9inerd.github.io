@@ -30,8 +30,8 @@
   url: https://www.pinterest.com/
   icon: pinterest
 
-- resource: keybase
-  url: https://keybase.io/
+- resource: keyoxide
+  url: https://keyoxide.org/
   icon: key
 
 - resource: rss

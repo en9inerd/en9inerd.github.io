@@ -23,7 +23,7 @@ social-links:
   pinterest:
   rss: rss # just type anything here for a working RSS icon
   twitter:
-  keybase: en9inerd
+  keyoxide: aspe:enginerd.io:VAXYFU5Y2CCDW5XIYLZOVNEMYM
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
 
@@ -32,7 +32,7 @@ social:
   links: 
     - https://www.linkedin.com/in/vloskutov
     - https://github.com/en9inerd
-    - https://keybase.io/en9inerd
+    - https://keyoxide.org/aspe:enginerd.io:VAXYFU5Y2CCDW5XIYLZOVNEMYM
 
 contact_form_script_id: AKfycby7x6xohzq6X0KNiW04ZRhrAblqsKfmUIvzstK4UCXUk4RNh2pe1ClwTlZ8EEkgFwDU
 
@@ -54,7 +54,7 @@ giscus:
 
 pgp-key:
   show: true
-  url: https://keybase.io/en9inerd/pgp_keys.asc?fingerprint=3a6b30b1c535625d51caa2f0232a56bcff4eaef2
+  url: https://keys.openpgp.org/vks/v1/by-fingerprint/3A6B30B1C535625D51CAA2F0232A56BCFF4EAEF2
   fingerprint: 3A6B 30B1 C535 625D 51CA A2F0 232A 56BC FF4E AEF2
 
 google_analytics: G-XZRL66P63S
