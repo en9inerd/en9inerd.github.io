@@ -120,3 +120,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+include:
+  - .well-known/aspe/id/VAXYFU5Y2CCDW5XIYLZOVNEMYM
