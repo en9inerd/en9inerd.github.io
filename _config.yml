@@ -123,3 +123,4 @@ exclude:
 
 include:
   - .well-known/aspe/id/VAXYFU5Y2CCDW5XIYLZOVNEMYM
+  - .well-known/aspe/version
