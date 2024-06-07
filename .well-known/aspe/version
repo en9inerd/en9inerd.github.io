@@ -1,1 +1,6 @@
-kx-aspe-server/0.0.1
+{
+  "name": "custom-static-aspe-server",
+  "version": "0.1.0",
+  "repository": "https://github.com/en9inerd/en9inerd.github.io",
+  "homepage": "https://en9inerd.io"
+}
