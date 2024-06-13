@@ -3,7 +3,7 @@
   location: Rockville, MD
   start_date: 2020-02-18
   end_date:
-  duties:
+  responsibilities:
   - Developed a robust microscopy image import and processing pipeline in a NestJS application, utilizing BullMQ for task queuing and Redis for caching
   - Implemented a NestJS API wrapper around OMERO API and OMERO CLI, facilitating the transformation of OMERO objects into internal project entities and enabling the seamless upload of microscopy images from private directories to the OMERO central repository
   - Developed Angular components responsible for lab samples data management and which provide different layouts for tree representation and data grouping by different properties
@@ -16,7 +16,7 @@
   location: Washington, DC
   start_date: 2019-07-16
   end_date: 2020-02-15
-  duties:
+  responsibilities:
   - Developed serverless app based on AWS Lambda (Node.js back-end), AWS Cognito, AWS API Gateway, AWS S3 (JavaScript front-end) to manage and collect records in DynamoDB for further data extraction and analysis by using AWS Glue and Amazon Athena
   - Implemented Python package to work with NewsWhip and SimilarWeb APIs. Implemented report using this Python package to do NewsWhip and SimilarWeb data analysis
 
@@ -25,7 +25,7 @@
   location: Washington, DC
   start_date: 2017-05-15
   end_date: 2019-07-15
-  duties:
+  responsibilities:
   - Software development and maintenance that was oriented on social intelligence analytic using Django, PostgreSQL (Redshift), Facebook and Twitter API
   - Automated AWS, including Automating Big Data processing with Python and Boto3
   - Data Warehousing based on Amazon Redshift
@@ -39,32 +39,32 @@
   location: Washington, DC
   start_date: 2016-09-01
   end_date: 2016-12-31
-  duties:
-  - Software development and maintenance that was oriented on social intelligence analytics using Django, Bootstrap
-  - Tools development and maintenance for generating reports using Django, PostgreSQL, Git
-  - Agile Development and Test Driven Development
+  responsibilities:
+  - Developed and maintained software for social intelligence analytics using Django and Bootstrap
+  - Created and maintained tools for report generation using Django, PostgreSQL, and Git
+  - Practiced Agile Development and Test-Driven Development methodologies
 
 - employer: Angstrem-Telecom
   title: Junior Network Engineer
   location: Moscow, Russia
   start_date: 2014-09-01
   end_date: 2015-05-31
-  duties:
-  - Tested of embedded network devices (SoC RTL89xxC) based on OpenWrt and Octopus using Bash, iptables
-  - Found and fixed bugs and maintained C/C++ code using Git
-  - Worked with RTL8188C\|CU\|CUS, RT8192C\|CU wifi chips, RS-232 interface, U-Boot bootloader
-  - Debricked routers using JTAG, Serial console
-  - Fixed web interfaces using HTML, CSS, JavaScript
-  - Wrote documentation for network equipment using MS Office
+  responsibilities:
+  - Tested embedded network devices (SoC RTL89xxC) running OpenWrt using self-written Bash scripts and iptables
+  - Identified and fixed bugs in C/C++ codebase, maintained using Git
+  - Worked with RTL8188C/8188CU/8188CUS, RT8192C/8192CU Wi-Fi chips, RS-232 interface, and U-Boot bootloader
+  - Debricked network devices through JTAG, Serial console
+  - Enhanced web interfaces using HTML, CSS, and JavaScript
+  - Prepared technical documentation for network equipment using MS Office
 
 - employer: Ltd. QDGroup
   title: Technical Specialist
   location: Moscow, Russia
   start_date: 2011-07-01
   end_date: 2014-08-31
-  duties:
-  - Provided support for local office network in working condition and set up of office software and equipment
-  - Configured and maintained Windows and *nix servers, and other network equipment
-  - Experience of using RS-232, RS-485 communications (corresponding protocols) for debugging via serial console, debrick and firmware replacement of network devices
-  - Installed and maintained Apollo Security's Access Control and Alarm Monitoring System (APACS). Performed firmware replacement, configuration, and interaction for Apollo's controllers
-  - Configured and maintained PBX hardware and Asterisk PBX software
+  responsibilities:
+  - Maintained local office network and set up office software and equipment
+  - Configured and managed Windows and *nix servers, and network hardware
+  - Utilized RS-232 and RS-485 protocols for debugging, debricking, and firmware updates of network devices
+  - Installed and maintained Apollo Security’s Access Control and Alarm Monitoring System (APACS); handled firmware updates and controller configurations
+  - Configured and managed PBX hardware and Asterisk PBX software

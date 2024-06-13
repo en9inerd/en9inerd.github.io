@@ -27,19 +27,19 @@ seo:
 ## Experience
 
 <div class="cv-experience">
-{% assign positions=site.data.cv.positions | sort: "start_date" %}
-{% for position in positions reversed %}
+{% assign experience=site.data.cv.experience | sort: "start_date" %}
+{% for exp in experience reversed %}
 
-{% unless position.employer == previous_employer %}
-### {{ position.employer }} · {{position.location}}
+{% unless exp.employer == previous_employer %}
+### {{ exp.employer }} · {{exp.location}}
 {% endunless %}
 
-#### {{ position.title }}
+#### {{ exp.title }}
 
-<div><time datetime="{{ position.start_date | date_to_xmlschema }}" class="smaller">{{ position.start_date | date: '%B %Y' }}{% if position.start_date != position.end_date %} &mdash; {% if position.end_date %}{{ position.end_date | date: '%B %Y' }}{% else %}Present{% endif %}{% endif %}</time></div>
-{% for duty in position.duties %}
+<div><time datetime="{{ exp.start_date | date_to_xmlschema }}" class="smaller">{{ exp.start_date | date: '%B %Y' }}{% if exp.start_date != exp.end_date %} &mdash; {% if exp.end_date %}{{ exp.end_date | date: '%B %Y' }}{% else %}Present{% endif %}{% endif %}</time></div>
+{% for duty in exp.responsibilities %}
 - {{ duty }}{% endfor %}
-{% assign previous_employer=position.employer %}
+{% assign previous_employer=exp.employer %}
 {% endfor %}
 </div>
 
@@ -63,8 +63,8 @@ seo:
 ## Education
 
 <div class="cv-education">
-{% assign degrees=site.data.cv.degrees | sort: "date" %}
-{% for degree in degrees reversed %}
+{% assign education=site.data.cv.education | sort: "date" %}
+{% for degree in education reversed %}
 
 ### {{ degree.school }}
 

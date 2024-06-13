@@ -2,7 +2,7 @@
   tools: [JavaScript/TypeScript, Python, C/C++, Bash]
 
 - type: Frameworks
-  tools: [Angular, NestJS, LoopBack, Express.js, Django]
+  tools: [Angular, NestJS, LoopBack, Express.js, FastAPI, Django]
 
 - type: Databases
   tools: [MongoDB, PostgreSQL, MySQL, Redis, SQLite]
