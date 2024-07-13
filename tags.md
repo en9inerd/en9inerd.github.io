@@ -9,7 +9,7 @@ permalink: /tags/
   <span>[
   {%- for tag in sorted_tags %}
     <a href="#{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }}</a>{% unless forloop.last %},{% endunless %}
-  {%- endfor %}]
+  {%- endfor %} ]
   </span>
 </div>
 <hr/>
