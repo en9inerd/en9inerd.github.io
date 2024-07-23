@@ -1,6 +1,7 @@
 +++
 title = "TeleBuilder - Telegram bot framework"
 date = 2023-05-29T22:22:00-04:00
+aliases = ["2023/05/29/telebuilder-telegram-bot-framework"]
 
 [taxonomies]
 tags = ["telegram api", "nodejs", "typescript", "bot"]

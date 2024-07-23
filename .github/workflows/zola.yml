@@ -3,8 +3,8 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+# Sample workflow for building and deploying a Zola site to GitHub Pages
+name: Deploy Zola site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -34,9 +34,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build Zoal site
+      - name: Build Zola site
         uses: shalzz/zola-deploy-action@v0.19.1
         env:
+          BUILD_ONLY: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload artifact
         # uploads an artifact from the './public' directory

@@ -1,6 +1,7 @@
 +++
 title = "Goodbye, Gromozeka Bot"
 date = 2023-11-05T12:10:00-05:00
+aliases = ["2023/11/05/goodbye-gromozeka-bot"]
 
 [taxonomies]
 tags = ["telegram api", "nodejs", "typescript", "bot", "fetch api"]

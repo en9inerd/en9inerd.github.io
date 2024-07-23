@@ -1,6 +1,7 @@
 +++
 title = "Amazing Node-RED"
 date = 2024-01-21T17:39:00-05:00
+aliases = ["2024/01/21/amazing-node-red"]
 
 [taxonomies]
 tags = ["automation", "nodejs", "node-red", "iot", "raspberry pi"]

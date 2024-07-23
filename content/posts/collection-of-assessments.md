@@ -1,6 +1,7 @@
 +++
 title = "Collection of interview assessments"
 date = 2017-04-11T22:13:00-04:00
+aliases = ["2017/04/11/collection-of-assessments"]
 
 [taxonomies]
 tags = ["python", "c/c++", "assessment"]

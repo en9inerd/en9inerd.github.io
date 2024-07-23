@@ -1,6 +1,7 @@
 +++
 title = "My Professional Path"
 date = 2017-03-06T22:07:00-05:00
+aliases = ["2017/03/06/my-professional-path"]
 
 [taxonomies]
 tags = ["bio", "software enginnering"]

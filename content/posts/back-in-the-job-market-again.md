@@ -2,6 +2,7 @@
 title = "Back in the job market again"
 date = 2019-03-01T09:29:00-05:00
 draft = true
+aliases = ["2019/03/01/back-in-the-job-market-again"]
 
 [taxonomies]
 tags = ["job", "bio"]

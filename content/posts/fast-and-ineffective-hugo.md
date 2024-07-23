@@ -1,6 +1,7 @@
 +++
 title = "Fast and Ineffective Hugo"
 date = 2024-03-24T14:12:00-04:00
+aliases = ["2024/03/24/fast-and-ineffective-hugo"]
 
 [taxonomies]
 tags = ["jekyll", "hugo", "ssg"]

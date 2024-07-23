@@ -1,6 +1,7 @@
 +++
 title = "Python's Trade-offs: Performance vs. Ease of Use"
 date = 2017-02-10T22:07:00-05:00
+aliases = ["2017/02/10/python-trade-offs-performance-vs-ease-of-use"]
 
 [taxonomies]
 tags = ["c/c++", "python", "assessment", "data structures", "performance"]
