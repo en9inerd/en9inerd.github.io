@@ -1,12 +1,15 @@
----
-title: "My Professional Path"
-date: 2017-03-06 22:07
-tags: [bio, software enginnering]
----
++++
+title = "My Professional Path"
+date = 2017-03-06T22:07:00-05:00
+
+[taxonomies]
+tags = ["bio", "software enginnering"]
++++
 
 During a recent job interview, I was asked to share a brief account of "How did I fall in love with coding?" The question made me reflect on my journey, and while it may be a common tale, I believe it's worth documenting.
 
-**A Glimpse into My Early Years:** My enthrallment with the IT industry began at a young age. From the age of seven, I was surrounded by the world of technology. I found it fascinating to research the inner workings of various devices, particularly the intricate components like CPUs and GPUs. This curiosity led me to tinker with hardware, starting with the ZX Spectrum and progressing to today's sophisticated systems. Remarkably, by the age of fourteen, I was already assembling my own PCs. <!--more-->
+**A Glimpse into My Early Years:** My enthrallment with the IT industry began at a young age. From the age of seven, I was surrounded by the world of technology. I found it fascinating to research the inner workings of various devices, particularly the intricate components like CPUs and GPUs. This curiosity led me to tinker with hardware, starting with the ZX Spectrum and progressing to today's sophisticated systems. Remarkably, by the age of fourteen, I was already assembling my own PCs.
+<!--more-->
 
 My father served as a profound inspiration. He was a seasoned assembler programmer, and watching him work ignited my passion for computers, their functionality, and the art of creating programs that could calculate and accomplish tasks.
 

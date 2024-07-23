@@ -1,51 +1,51 @@
-- resource: dribble
+- platform: dribble
   url: https://dribbble.com/
   icon: dribble
 
-- resource: email
+- platform: email
   url: 'mailto:'
   icon: mail
 
-- resource: facebook
+- platform: facebook
   url: https://www.facebook.com/
   icon: facebook
 
-- resource: flickr
+- platform: flickr
   url: https://www.flickr.com/
   icon: flickr
 
-- resource: github
+- platform: github
   url: https://github.com/
   icon: github-circled
 
-- resource: instagram
+- platform: instagram
   url: https://instagram.com/
   icon: instagram
 
-- resource: linkedin
+- platform: linkedin
   url: https://www.linkedin.com/in/
   icon: linkedin
 
-- resource: pinterest
+- platform: pinterest
   url: https://www.pinterest.com/
   icon: pinterest
 
-- resource: keyoxide
+- platform: keyoxide
   url: https://keyoxide.org/
   icon: key
 
-- resource: rss
-  url: /feed.xml
+- platform: feed
+  url: /atom.xml
   icon: rss
 
-- resource: twitter
+- platform: twitter
   url: https://www.twitter.com/
   icon: twitter
 
-- resource: stackoverflow
-  url: http://stackoverflow.com/
+- platform: stackoverflow
+  url: https://stackoverflow.com/
   icon: stackoverflow
 
-- resource: youtube
+- platform: youtube
   url: https://youtube.com/
   icon: youtube

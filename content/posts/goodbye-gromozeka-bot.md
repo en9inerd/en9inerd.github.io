@@ -1,12 +1,15 @@
----
-title: Goodbye, Gromozeka Bot
-date: 2023-11-05 12:10
-tags: [telegram api, nodejs, typescript, bot, fetch api]
----
++++
+title = "Goodbye, Gromozeka Bot"
+date = 2023-11-05T12:10:00-05:00
+
+[taxonomies]
+tags = ["telegram api", "nodejs", "typescript", "bot", "fetch api"]
++++
 
 The [Gromozeka bot](https://github.com/en9inerd/gromozeka-bot) was implemented to assist Telegram users in deleting all of their messages from a chat, channel, or conversation, even without admin privileges. Official Telegram clients lack a straightforward solution for a mass message deletion, requiring users to manually select and delete messages, with a limit of 100 at a time. Gromozeka bot was aimed to solve this inconvenience.
 
-The bot's implementation involves creating and storing a user session on the bot's side, posing a security concern regarding potential misuse by the bot owner. While it's reasonable for Telegram to prevent unauthorized user session manipulation by a bot, my implementation addresses this issue. Although not flawless, my solution ensures that only the user can utilize the created session.<!--more-->
+The bot's implementation involves creating and storing a user session on the bot's side, posing a security concern regarding potential misuse by the bot owner. While it's reasonable for Telegram to prevent unauthorized user session manipulation by a bot, my implementation addresses this issue. Although not flawless, my solution ensures that only the user can utilize the created session.
+<!--more-->
 
 In my implementation:
 1. Messages containing sensitive information such as phone numbers, one-time verification codes, or two-factor authentication passwords are promptly deleted by the bot.

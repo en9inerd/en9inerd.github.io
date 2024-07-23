@@ -1,12 +1,15 @@
----
-title: TeleBuilder - Telegram bot framework
-date: 2023-05-29 22:22
-tags: [telegram api, nodejs, typescript, bot]
----
++++
+title = "TeleBuilder - Telegram bot framework"
+date = 2023-05-29T22:22:00-04:00
+
+[taxonomies]
+tags = ["telegram api", "nodejs", "typescript", "bot"]
++++
   
 [[ NPM Package ]](https://www.npmjs.com/package/telebuilder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[ GitHub Repo ]](https://github.com/en9inerd/telebuilder)
 
-In my spare time, I find joy in tinkering with small open source projects, one of which is a straightforward Telegram bot framework called TeleBuilder. This framework is powered by the [GramJS library](https://www.npmjs.com/package/telegram) and is written in TypeScript. I've primarily developed it for personal use to implement various bots tailored to my specific needs. However, TeleBuilder also serves as a testing ground for experimenting with new TypeScript features and approaches.<!--more-->
+In my spare time, I find joy in tinkering with small open source projects, one of which is a straightforward Telegram bot framework called TeleBuilder. This framework is powered by the [GramJS library](https://www.npmjs.com/package/telegram) and is written in TypeScript. I've primarily developed it for personal use to implement various bots tailored to my specific needs. However, TeleBuilder also serves as a testing ground for experimenting with new TypeScript features and approaches.
+<!--more-->
 
 TeleBuilder operates as a command message-centric framework, acting as an additional abstraction layer built on top of GramJS. To effectively utilize TeleBuilder, it's essential to have a basic understanding of how GramJS functions. But the beauty of TeleBuilder lies in its ability to simplify several aspects of Telegram bot development. Here are some of the features that make it stand out:
 
