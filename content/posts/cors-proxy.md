@@ -1,7 +1,7 @@
 +++
 title = "Overcoming CORS Restrictions with a Cloudflare Workers-Based Proxy"
 date = 2023-04-17T22:22:00-04:00
-aliases = ["2023/04/17/overcoming-cors-restrictions-with-a-cloudflare-workers-based-proxy"]
+aliases = ["2023/04/17/cors-proxy"]
 
 [taxonomies]
 tags = ["cors proxy", "cloudflare workers", "fetch api"]
