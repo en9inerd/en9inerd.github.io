@@ -5,7 +5,7 @@ path = "about"
 
 [extra]
 no_page_info = true
-title = "About"
+pgp_key_enabled = true
 
 [extra.seo]
 type = "Person"
