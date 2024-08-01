@@ -1,15 +1,26 @@
 - employer: Axle Informatics
   title: Senior Full Stack Developer
   location: Rockville, MD
-  start_date: 2020-02-18
+  start_date: 2023-01-16
   end_date:
   responsibilities:
-  - Developed a robust microscopy image import and processing pipeline in a NestJS application, utilizing BullMQ for task queuing and Redis for caching
-  - Implemented a NestJS API wrapper around OMERO API and OMERO CLI, facilitating the transformation of OMERO objects into internal project entities and enabling the seamless upload of microscopy images from private directories to the OMERO central repository
-  - Developed Angular components responsible for lab samples data management and which provide different layouts for tree representation and data grouping by different properties
-  - Built API with NestJS framework to operate with tree-based lab samples data structure, it provides ability to use different hierarchies (level sets), and it has role-based and user-based access control
+  - Developed Angular app based on previously developed library for lab sample data management, featuring dynamic hierarchy-based visualization of data organization using OMERO as source of data and metadata
+  - Integrated Angular app with existing OMERO ingestion pipeline, allowing direct imports of images into OMERO central repository
+  - Developed microservice using FastAPI and OMERO BlitzGateway package to retrieve OMERO data by provided metadata (map annotations) and access data from OMERO database that is otherwise inaccessible through existing OMERO API
+  - Dockerized applications and implemented CI/CD pipelines using GitHub Actions workflows; managed deployments on Amazon EKS with Helm charts, ensuring scalable and reliable application delivery
+
+- employer: Axle Informatics
+  title: Software Developer
+  location: Rockville, MD
+  start_date: 2020-02-18
+  end_date: 2023-01-15
+  responsibilities:
+  - Enhanced robust microscopy image import and processing pipeline in NestJS application, utilizing BullMQ for task queuing and Redis for caching
+  - Developed NestJS API wrapper around OMERO API and OMERO CLI, facilitating transformation of OMERO objects into internal project entities and enabling seamless import of microscopy images from private directories to OMERO central repository
+  - Developed Angular library (collection of components and services) responsible for lab sample data management, providing dynamic hierarchical metadata-driven data organization, various layouts for tree representation, and data grouping by various properties
+  - Built API with Loopback framework and internal company packages/libraries to operate with tree-based structure of lab sample data, providing ability to use different hierarchies (level sets), and incorporating role-based and user-based access control
   - Re-implemented Node.js CLI app with oclif framework that processes 2d and 3d Electron Microscopy data to provide Client Credentials Flow instead of Authorization Code Flow and brings new client requested features
-  - "Participated in upgrading legacy Angular app and back-end Node.js app: adaptation for supporting multiple databases (SharePoint and MySQL) through LoopBack Juggler; Angular components re-implementation according to client's requirements; REST API implementation with LoopBack framework"
+  - "Participated in upgrading legacy Angular app and back-end Node.js app: adapted for supporting multiple databases (SharePoint and MySQL) through LoopBack Juggler; re-implementated Angular components according to client's requirements; built REST API with LoopBack framework"
 
 - employer: Burson Cohn & Wolfe
   title: Software Engineer
@@ -18,7 +29,7 @@
   end_date: 2020-02-15
   responsibilities:
   - Developed serverless app based on AWS Lambda (Node.js back-end), AWS Cognito, AWS API Gateway, AWS S3 (JavaScript front-end) to manage and collect records in DynamoDB for further data extraction and analysis by using AWS Glue and Amazon Athena
-  - Implemented Python package to work with NewsWhip and SimilarWeb APIs. Implemented report using this Python package to do NewsWhip and SimilarWeb data analysis
+  - Developed Python package for interfacing with NewsWhip and SimilarWeb APIs, and created reports leveraging this package for comprehensive data analysis of news and web traffic trends
 
 - employer: Burson Cohn & Wolfe
   title: Python DevOps Developer
@@ -31,7 +42,7 @@
   - Data Warehousing based on Amazon Redshift
   - Reduced company's monthly bill for Redshift dramatically
   - Built and deployed Docker containers to break up monolithic app into microservices, improving developer workflow, increasing scalability, and optimizing speed
-  - Supported and developed a Redshift report that generates hundreds of thousands of dollars of revenue per year
+  - Supported and developed Redshift report that generates hundreds of thousands of dollars of revenue per year
   - Used Scrum development methodology and Test Driven Development
 
 - employer: Verifeed LLC

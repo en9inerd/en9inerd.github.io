@@ -1,12 +1,3 @@
-- name: Gromozeka Bot
-  desc: Bot to assist the user in deleting all of their messages from chat, channel, or conversation on Telegram without requiring admin privileges
-  technologies: [Telegram API, TypeScript, GramJS, TeleBuilder]
-  link:
-    text: GitHub Repo
-    url: https://github.com/en9inerd/gromozeka-bot
-  start_date: 2022-07-01
-  end_date: 2023-11-01
-
 - name: TeleBuilder
   desc: Simple command message-centric Telegram bot framework, acting as an additional abstraction layer built on top of GramJS
   technologies: [Telegram API, TypeScript, GramJS]

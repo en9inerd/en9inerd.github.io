@@ -11,7 +11,7 @@
   tools: [HTML, CSS, Tera, Liquid, XML]
 
 - type: AWS Services
-  tools: [EC2, S3, DynamoDB, RDS, Redshift, VPC, IAM, ElastiCache, Parameter Store, Lambda]
+  tools: [EKS, EC2, S3, DynamoDB, RDS, Redshift, VPC, IAM, ElastiCache, Parameter Store, Lambda]
 
 - type: Miscellaneous
   tools: [Git, Docker, Zola, Jekyll, LaTeX]

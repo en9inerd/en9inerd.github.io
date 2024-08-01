@@ -71,6 +71,9 @@ cv_file = "/files/Curriculum_Vitae_VL.pdf"
 # provide link to edit page on github
 edit_page = true
 
+# Use theme specific tags page based on templates/tags.html and content/pages/tags.md
+simplified_tags = true
+
 # Social links
 social_links = [
   { platform = "email", user_id = "vladimir@enginerd.io" },
