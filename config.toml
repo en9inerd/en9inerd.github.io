@@ -81,9 +81,8 @@ social_links = [
   { platform = "linkedin", user_id = "vloskutov" },
   { platform = "feed", user_id = true },
   { platform = "keyoxide", user_id = "aspe:enginerd.io:VAXYFU5Y2CCDW5XIYLZOVNEMYM" },
-  # { platform = "dribbble", user_id = "" },
+  { platform = "telegram", user_id = "mall0c" },
   # { platform = "facebook", user_id = "" },
-  # { platform = "flickr", user_id = "" },
   # { platform = "instagram", user_id = "" },
   # { platform = "pinterest", user_id = "" },
   # { platform = "twitter", user_id = "" },
@@ -127,4 +126,6 @@ links = [
   "https://github.com/en9inerd",
   "https://linkedin.com/in/vloskutov",
   "https://keyoxide.org/aspe:enginerd.io:VAXYFU5Y2CCDW5XIYLZOVNEMYM",
+  "https://t.me/mall0c",
+  "https://t.me/enginerd",
 ]

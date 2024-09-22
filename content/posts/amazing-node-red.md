@@ -4,7 +4,7 @@ date = 2024-01-21T17:39:00-05:00
 aliases = ["2024/01/21/amazing-node-red"]
 
 [taxonomies]
-tags = ["automation", "nodejs", "node-red", "iot", "raspberry pi"]
+tags = ["automation", "nodejs", "node-red", "iot", "raspberrypi"]
 +++
 
 Oh, if only I had touched [Node-RED] earlier. With this awesome programming tool, you can automate everything... well, almost everything. Yes, it is not for everyone, an ordinary user who does not understand the basics of networks and does not know JavaScript will probably prefer [IFTTT] or [Zapier].
