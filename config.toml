@@ -80,7 +80,7 @@ social_links = [
   { platform = "github", user_id = "en9inerd" },
   { platform = "linkedin", user_id = "vloskutov" },
   { platform = "feed", user_id = true },
-  { platform = "keyoxide", user_id = "aspe:enginerd.io:VAXYFU5Y2CCDW5XIYLZOVNEMYM" },
+  { platform = "keyoxide", user_id = "3A6B30B1C535625D51CAA2F0232A56BCFF4EAEF2" },
   { platform = "telegram", user_id = "mall0c" },
   # { platform = "facebook", user_id = "" },
   # { platform = "instagram", user_id = "" },
