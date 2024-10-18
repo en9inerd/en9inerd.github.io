@@ -39,7 +39,7 @@ bottom_footnotes = true
 title_separator = "|" # set as |, -, _, etc
 
 # The path to the logo of the site
-logo = "images/logo.png"
+logo = "images/logo.webp"
 
 # Google Analytics tracking ID
 google_analytics = "G-XZRL66P63S"
