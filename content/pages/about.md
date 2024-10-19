@@ -1,6 +1,6 @@
 +++
 title = "About"
-description = "Vladimir is a Full Stack Engineer with a passion for software development and data processing automation. His expertise lies in JavaScript/TypeScript, Node.js, Python, and C programming."
+description = "Vladimir is a Full Stack Engineer with a passion for software development and data processing automation. His expertise lies in JavaScript/TypeScript, Node.js, Python, Go, and C programming."
 path = "about"
 
 [extra]
@@ -11,7 +11,7 @@ pgp_key_enabled = true
 type = "Person"
 +++
 
-Hello, I'm Vladimir, a Full Stack Engineer with a passion for software development and data processing automation. My expertise lies in JavaScript/TypeScript, Node.js, Python, Zig, and C programming. At the moment, I specialize in building and maintaining web applications using frameworks like Angular, NestJS, and Express.js. Find more information about my skills and experience in my [Curriculum Vitae](@/pages/cv.md).
+Hello, I'm Vladimir, a Full Stack Engineer with a passion for software development and data processing automation. My expertise lies in JavaScript/TypeScript, Node.js, Python, Go, and C programming. At the moment, I specialize in building and maintaining web applications using frameworks like Angular, NestJS, and Express.js. Find more information about my skills and experience in my [Curriculum Vitae](@/pages/cv.md).
 
 <p style="text-align: center;">{{ github_avatar(size=200) }}</p>
 
