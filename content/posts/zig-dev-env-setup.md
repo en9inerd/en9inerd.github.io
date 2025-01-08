@@ -85,6 +85,6 @@ One thing I recommend trying out right away is [Zig’s cross-compilation featur
 [Zig]: https://ziglang.org/
 [pre-built releases]: https://ziglang.org/download/index.json
 [this page]: https://zigtools.org/zls/install/
-[bash script]: https://gist.github.com/en9inerd/30ce4d559f54a663d080424e75baf800
+[bash script]: https://github.com/en9inerd/dotfiles-setup/blob/master/install-zig.sh
 [Zig Language extension]: https://marketplace.visualstudio.com/items?itemName=ziglang.vscode-zig
 [Zig’s cross-compilation feature for C/C++ code]: https://zig.news/kristoff/cross-compile-a-c-c-project-with-zig-3599
