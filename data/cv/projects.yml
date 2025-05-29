@@ -8,7 +8,7 @@
   end_date:
 
 - name: TgEraser
-  desc: CLI tool to delete all user's messages from chat, channel, or conversation on Telegram without requiring admin privileges
+  desc: CLI tool to delete all user messages from chats, channels, or conversations on Telegram without requiring admin privileges
   technologies: [Python, Telegram API, Telethon]
   link:
     text: GitHub Repo
@@ -17,7 +17,7 @@
   end_date: 2019-03-01
 
 - name: PlacerSA
-  desc: Placer for standard cell placement (global and detailed) based on modified algorithm “simulated annealing” for VLSI and FPGA
+  desc: Tool for standard cell placement (global and detailed) based on modified “simulated annealing” algorithm for VLSI and FPGA design flows
   technologies: [C/C++, STL, GLUT, Batch scripting]
   link:
     text: GitHub Repo

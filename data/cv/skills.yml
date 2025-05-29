@@ -1,17 +1,17 @@
 - type: Programming Languages
-  tools: [JavaScript/TypeScript, Python, C/C++, Bash]
+  tools: [JavaScript/TypeScript, Python, C, Bash]
 
 - type: Frameworks
   tools: [Angular, NestJS, LoopBack, Express.js, FastAPI, Django]
 
-- type: Databases
-  tools: [MongoDB, PostgreSQL, MySQL, Redis, SQLite]
+- type: Databases & Caching
+  tools: [MongoDB, PostgreSQL/Redshift, MySQL, Redis, SQLite]
 
-- type: Web
+- type: Web & Markup
   tools: [HTML, CSS, Tera, Liquid, XML]
 
-- type: AWS Services
-  tools: [EKS, EC2, S3, DynamoDB, RDS, Redshift, VPC, IAM, ElastiCache, Parameter Store, Lambda]
+- type: Cloud & DevOps
+  tools: [AWS (EKS, EC2, S3, RDS, Lambda, etc.), Docker, Git, GitHub Actions, Helm]
 
-- type: Miscellaneous
-  tools: [Git, Docker, Zola, Jekyll, LaTeX]
+- type: Tools & Other Tech
+  tools: [Neovim, Zola, Jekyll, LaTeX]
