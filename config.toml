@@ -2,10 +2,10 @@
 base_url = "https://enginerd.io/"
 
 # The title of the site
-title = "EngiNerd's Blog"
+title = "EngiNerd.io"
 
 # The description of the site
-description = "Full Stack Engineer"
+description = "Full Stack Engineer who speaks JS/TS, Python, Go, and a bit of C. I build web apps, automate the boring stuff, and occasionally make bots just for fun"
 
 author = "Vladimir Loskutov"
 
@@ -80,7 +80,7 @@ social_links = [
   { platform = "github", user_id = "en9inerd" },
   { platform = "linkedin", user_id = "vloskutov" },
   { platform = "feed", user_id = true },
-  { platform = "keyoxide", user_id = "3A6B30B1C535625D51CAA2F0232A56BCFF4EAEF2" },
+  # { platform = "keyoxide", user_id = "" },
   { platform = "telegram", user_id = "mall0c" },
   # { platform = "facebook", user_id = "" },
   # { platform = "instagram", user_id = "" },
@@ -125,7 +125,6 @@ job_title = "Full Stack Developer"
 links = [
   "https://github.com/en9inerd",
   "https://linkedin.com/in/vloskutov",
-  "https://keyoxide.org/aspe:enginerd.io:VAXYFU5Y2CCDW5XIYLZOVNEMYM",
   "https://t.me/mall0c",
   "https://t.me/enginerd",
 ]
