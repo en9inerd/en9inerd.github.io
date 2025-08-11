@@ -13,6 +13,7 @@ For a long time, I considered my development environment on VSCode to be quite c
 But earlier this year, I became more interested in how other developers set up their development environments, for example, [ThePrimeagen]. After that, doubts started to creep in: maybe I was far from true productivity...
 
 I had been using VSCode for 10 years, but at the end of January this year, I decided to try switching to [NeoVim] — to change my habits and fully tie my development environment to the terminal. This radically changed my perspective and understanding of how a development environment should be set up and how flexible it can be.
+<!--more-->
 
 ## Terminal
 
