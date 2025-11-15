@@ -17,7 +17,7 @@ My dev environment setup is primarily for macOS, but it can also work on Linux w
 
 ## Window Manager
 
-The default macOS window manager is very very limited in efficiency, customization, and keyboard-driven workflows. Also, the animation when switching spaces blocks you from doing anything until it finishes — I really hate that.
+The default macOS window manager is very very limited in efficiency, customization, and keyboard-driven workflows. Also, the animation when switching spaces blocks you from doing anything until it finishes — I really hate that.  
 There are three popular options for macOS: [Yabai], [Amethyst], and [AeroSpace]. First one requires disabling System Integrity Protection (SIP) to function for its basic tiling features, other two options do not. I chose AeroSpace for my dev environment because it's more customizable and has more deep control of where windows go.
 
 For Linux, I recommend i3 or Hyprland (especially on Fedora or Arch).
@@ -49,7 +49,7 @@ Probably the most ideal candidate for me among all the options, and the one I st
 
 ## Terminal Multiplexer and Session Management
 
-In this regard, the choice isn’t very large — either the deprecated [Screen], the new trendy [Zellij], or the most widespread and long-established [tmux]. I prefer the extensive customization and lightweight nature of tmux, plus Zellij uses YAML for configs, which I really dislike.
+In this regard, the choice isn’t very large — either the deprecated [Screen], the new trendy [Zellij], or the most widespread and long-established [tmux]. I prefer the extensive customization and lightweight nature of tmux, plus Zellij uses YAML for configs, which I really dislike.  
 I usually enable undercurl for tmux following [this guide] or by executing a simple [bash script] to recompile terminfo. I also really like using tmux together with a [fuzzy finder] to switch sessions, but in this case, I prefer to call them workspaces. I first saw this with ThePrimeagen and now use his [tmux-sessionizer] — a very handy tool for switching between sessions/workspaces.
 
 ## Editor
