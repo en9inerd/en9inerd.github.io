@@ -15,7 +15,7 @@ I had been using VSCode for 10 years, but at the end of January this year, I dec
 My dev environment setup is primarily for macOS, but it can also work on Linux with some differences.
 <!--more-->
 
-## OS Window Manager
+## Window Manager
 
 The default macOS window manager is very very limited in efficiency, customization, and keyboard-driven workflows. Also, the animation when switching spaces blocks you from doing anything until it finishes — I really hate that.
 There are three popular options for macOS: [Yabai], [Amethyst], and [AeroSpace]. First one requires disabling System Integrity Protection (SIP) to function for its basic tiling features, other two options do not. I chose AeroSpace for my dev environment because it's more customizable and has more deep control of where windows go.
