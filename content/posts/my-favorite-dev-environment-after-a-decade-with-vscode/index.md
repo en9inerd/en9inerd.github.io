@@ -6,8 +6,6 @@ date = 2025-06-20T22:59:00
 tags = ["neovim", "tmux", "window-manager", "terminal", "productivity"]
 +++
 
-# My Favorite Dev Environment After a Decade with VSCode
-
 For a long time, I considered my development environment on VSCode to be quite convenient and productive. I configured LSP servers, mastered many shortcuts, and tried to use a minimal number of plugins — instead relying heavily on native tasks. It seemed like it couldn’t get any better — my productivity was at its peak.
 
 But earlier this year, I became more interested in how other developers set up their development environments, for example, [ThePrimeagen]. After that, doubts started to creep in: maybe I was far from true productivity...
