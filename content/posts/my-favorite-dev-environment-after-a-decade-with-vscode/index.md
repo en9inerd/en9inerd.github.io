@@ -3,7 +3,7 @@ title = "My Favorite Dev Environment After a Decade with VSCode"
 date = 2025-06-20T22:59:00
 
 [taxonomies]
-tags = ["neovim", "tmux", "terminal", "productivity"]
+tags = ["neovim", "tmux", "window-manager", "terminal", "productivity"]
 +++
 
 # My Favorite Dev Environment After a Decade with VSCode
@@ -13,7 +13,16 @@ For a long time, I considered my development environment on VSCode to be quite c
 But earlier this year, I became more interested in how other developers set up their development environments, for example, [ThePrimeagen]. After that, doubts started to creep in: maybe I was far from true productivity...
 
 I had been using VSCode for 10 years, but at the end of January this year, I decided to try switching to [NeoVim] — to change my habits and fully tie my development environment to the terminal. This radically changed my perspective and understanding of how a development environment should be set up and how flexible it can be.
+
+My dev environment setup is primarily for macOS, but it can also work on Linux with some differences.
 <!--more-->
+
+## OS Window Manager
+
+The default macOS window manager is very very limited in efficiency, customization, and keyboard-driven workflows. Also, the animation when switching spaces blocks you from doing anything until it finishes — I really hate that.
+There are three popular options for macOS: [Yabai], [Amethyst], and [AeroSpace]. First one requires disabling System Integrity Protection (SIP) to function for its basic tiling features, other two options do not. I chose AeroSpace for my dev environment because it's more customizable and has more deep control of where windows go.
+
+For Linux, I recommend i3 or Hyprland (especially on Fedora or Arch).
 
 ## Terminal
 
@@ -40,9 +49,10 @@ Another terminal emulator written in Rust. Here, everything is basically the opp
 
 Probably the most ideal candidate for me among all the options, and the one I still use today. Ghostty is quite minimalist in every aspect, incredibly easy to configure, and its default font is JetBrains Mono. Being implemented in Zig makes it fast and efficient in terms of memory usage. Tabs and splits are also supported. The only thing missing to fully replace tmux is session management — but that’s apparently under discussion on GitHub and depends on how many people vote for it. However, this is not a major downside for me, since in any case, nothing really compares to tmux when it comes to session and window management.
 
-## Window and Session Manager
+## Terminal Multiplexer and Session Management
 
-In this regard, the choice isn’t very large — either the deprecated [Screen], the new trendy [Zellij], or the most widespread and long-established [tmux]. I prefer the extensive customization and lightweight nature of tmux, plus Zellij uses YAML for configs, which I really dislike. I usually enable undercurl for tmux following [this guide]. I also really like using tmux together with a [fuzzy finder]; I first saw this with ThePrimeagen and now I use his [tmux-sessionizer] — a very handy tool for switching between sessions/projects.
+In this regard, the choice isn’t very large — either the deprecated [Screen], the new trendy [Zellij], or the most widespread and long-established [tmux]. I prefer the extensive customization and lightweight nature of tmux, plus Zellij uses YAML for configs, which I really dislike.
+I usually enable undercurl for tmux following [this guide] or by executing a simple [bash script] to recompile terminfo. I also really like using tmux together with a [fuzzy finder] to switch sessions, but in this case, I prefer to call them workspaces. I first saw this with ThePrimeagen and now use his [tmux-sessionizer] — a very handy tool for switching between sessions/workspaces.
 
 ## Editor
 
@@ -58,7 +68,7 @@ If you want NeoVim to look and behave like VSCode, or if you’re blindly copyin
 
 Switching from VSCode to a terminal-based setup with Ghostty, NeoVim, and tmux has completely reshaped how I work and boosted my productivity in ways I hadn’t expected. While the transition requires patience and a willingness to learn new workflows, the payoff is a more flexible, efficient, and personalized development environment.
 
-My current setup is essentially Ghostty + NeoVim + tmux, and I don’t expect that to change anytime soon. If you’re interested, you can check out my configs for these tools in my [dotfiles repository].
+My current setup is essentially AeroSpace + Ghostty + NeoVim + tmux, and I don’t expect that to change anytime soon. If you’re interested, you can check out my configs for these tools in my [dotfiles repository].
 
 [ThePrimeagen]: https://github.com/ThePrimeagen
 [NeoVim]: https://neovim.io/
@@ -76,4 +86,8 @@ My current setup is essentially Ghostty + NeoVim + tmux, and I don’t expect th
 [TJ DeVries]: https://github.com/tjdevries
 [vim-be-good]: https://github.com/ThePrimeagen/vim-be-good
 [cheat sheet for NeoVim]: ./cheat-sheet.png
+[Yabai]: https://github.com/koekeishiya/yabai
+[Amethyst]: https://ianyh.com/amethyst/
+[AeroSpace]: https://nikitabobko.github.io/AeroSpace/guide
+[bash script]: https://github.com/en9inerd/dotfiles-setup/blob/master/enable-undercurl.sh
 [dotfiles repository]: https://github.com/en9inerd/dotfiles
