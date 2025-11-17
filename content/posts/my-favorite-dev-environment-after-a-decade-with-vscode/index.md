@@ -1,6 +1,6 @@
 +++
 title = "My Favorite Dev Environment After a Decade with VSCode"
-date = 2025-06-20T22:59:00
+date = 2025-06-20T22:59:00-04:00
 
 [taxonomies]
 tags = ["neovim", "tmux", "window-manager", "terminal", "productivity"]

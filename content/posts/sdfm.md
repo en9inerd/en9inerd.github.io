@@ -1,6 +1,6 @@
 +++
 title = "Simple DotFiles Manager"
-date = 2025-08-20T19:19:00-04:00
+date = 2025-08-22T19:19:00-04:00
 
 [taxonomies]
 tags = ["bash", "dotfiles"]
