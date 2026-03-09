@@ -1,5 +1,5 @@
 - name: PostPal
-  desc: Bot that syncs Telegram channel posts to a Zola static blog
+  desc: Bot that syncs Telegram channel posts to a Zola static blog, with support for edits, albums, and media downloads. Integrates with GitHub via go-git for automated commit and push; deployed with Docker.
   technologies: [Go, MTProto, TeleKit]
   link:
     text: GitHub Repo
@@ -8,7 +8,7 @@
   end_date:
 
 - name: TeleKit
-  desc: Framework for building Telegram bots using the MTProto protocol via gotd/td
+  desc: Framework for building Telegram bots using the MTProto protocol via gotd/td. Provides event handling with filters, command parsing with typed parameter validation, album support, and session management.
   technologies: [Go, MTProto, gotd/td]
   link:
     text: GitHub Repo
@@ -17,7 +17,7 @@
   end_date:
 
 - name: j2z
-  desc: CLI tool for converting Jekyll posts to Zola posts
+  desc: CLI tool for converting Jekyll posts to Zola with YAML-to-TOML front matter conversion and Liquid tag processing.
   technologies: [Go]
   link:
     text: GitHub Repo
@@ -26,7 +26,7 @@
   end_date:
 
 - name: TgEraser
-  desc: CLI tool to delete all user messages from chats, channels, or conversations on Telegram without requiring admin privileges
+  desc: CLI tool to delete all your messages from chats, channels, or conversations on Telegram without requiring admin privileges. Supports filtering by time range, media type, and peer; published on PyPI as a pip-installable package.
   technologies: [Python, MTProto, Telethon]
   link:
     text: GitHub Repo
@@ -35,7 +35,7 @@
   end_date: 2019-03-01
 
 - name: PlacerSA
-  desc: Tool for standard cell placement (global and detailed) based on modified "simulated annealing" algorithm for VLSI and FPGA design flows
+  desc: Standard cell placer for global and detailed placement based on a modified simulated annealing algorithm for VLSI and FPGA design. Processes IBM-PLACE benchmarks in Bookshelf format; includes OpenGL visualization of placement progress.
   technologies: [C/C++, STL, GLUT]
   link:
     text: GitHub Repo
