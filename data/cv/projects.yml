@@ -1,15 +1,33 @@
-- name: TeleBuilder
-  desc: Simple command message-centric Telegram bot framework, acting as an additional abstraction layer built on top of GramJS
-  technologies: [Telegram API, TypeScript, GramJS]
+- name: PostPal
+  desc: Bot that syncs Telegram channel posts to a Zola static blog
+  technologies: [Go, MTProto, TeleKit]
   link:
     text: GitHub Repo
-    url: https://github.com/en9inerd/telebuilder
-  start_date: 2022-07-01
+    url: https://github.com/en9inerd/postpal
+  start_date: 2026-01-01
+  end_date:
+
+- name: TeleKit
+  desc: Framework for building Telegram bots using the MTProto protocol via gotd/td
+  technologies: [Go, MTProto, gotd/td]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/telekit
+  start_date: 2026-02-01
+  end_date:
+
+- name: j2z
+  desc: CLI tool for converting Jekyll posts to Zola posts
+  technologies: [Go]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/j2z
+  start_date: 2024-09-01
   end_date:
 
 - name: TgEraser
   desc: CLI tool to delete all user messages from chats, channels, or conversations on Telegram without requiring admin privileges
-  technologies: [Python, Telegram API, Telethon]
+  technologies: [Python, MTProto, Telethon]
   link:
     text: GitHub Repo
     url: https://github.com/en9inerd/tgeraser
@@ -17,8 +35,8 @@
   end_date: 2019-03-01
 
 - name: PlacerSA
-  desc: Tool for standard cell placement (global and detailed) based on modified “simulated annealing” algorithm for VLSI and FPGA design flows
-  technologies: [C/C++, STL, GLUT, Batch scripting]
+  desc: Tool for standard cell placement (global and detailed) based on modified "simulated annealing" algorithm for VLSI and FPGA design flows
+  technologies: [C/C++, STL, GLUT]
   link:
     text: GitHub Repo
     url: https://github.com/en9inerd/SimAn

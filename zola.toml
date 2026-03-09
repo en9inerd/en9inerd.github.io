@@ -5,7 +5,7 @@ base_url = "https://enginerd.io/"
 title = "EngiNerd.io"
 
 # The description of the site
-description = "Full Stack Engineer who speaks JS/TS, Python, Go, and a bit of C. I build web apps, automate the boring stuff, and occasionally make bots just for fun"
+description = "Software Engineer who speaks JS/TS, Python, Go, and a bit of C. I build web apps, automate the boring stuff, and occasionally make bots just for fun"
 
 author = "Vladimir Loskutov"
 
@@ -120,7 +120,7 @@ fingerprint = "3A6B 30B1 C535 625D 51CA A2F0 232A 56BC FF4E AEF2"
 gender = "male"
 employer_name = "Axle Informatics"
 employer_url = "https://axleinfo.com/"
-job_title = "Full Stack Developer"
+job_title = "Software Engineer"
 links = [
   "https://github.com/en9inerd",
   "https://linkedin.com/in/vloskutov",

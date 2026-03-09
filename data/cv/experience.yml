@@ -4,9 +4,11 @@
   start_date: 2023-01-16
   end_date:
   responsibilities:
-  - Contributing to migration of JSP/Tomcat-based application to modular Angular frontend integrated with Strapi CMS for content management and FastAPI backend for data services
-  - Developed Angular application for lab sample data management with dynamic, hierarchy-driven views powered by OMERO data and metadata from annotations, leveraging reusable component library built in previous project
-  - Integrated Angular application with custom OMERO import API built with NestJS, enabling ingestion of microscopy images from private directories into OMERO repository
+  - Leading development of DAME (Data Access Management Engine), a full-stack data governance platform managing data access requests, institutional agreements, and user roles/permissions
+  - Designed and implemented fine-grained RBAC system with resource-action permission matrix supporting multi-type approval workflows for registrations, data access requests, and certifications
+  - Built Express.js backend with PostgreSQL (Drizzle ORM) and S3-compatible document storage; developed Angular frontend with Material Design, OIDC authentication, and permission-driven UI
+  - Contributed to migration of JSP/Tomcat-based application to modular Angular frontend integrated with Strapi CMS for content management and FastAPI backend for data services
+  - Developed Angular application for lab sample data management with dynamic, hierarchy-driven views powered by OMERO data and metadata from annotations
   - Built FastAPI microservice using OMERO BlitzGateway to query image data by metadata (map annotations) and access OMERO database content not available via official API
   - Containerized applications and implemented CI/CD workflows with GitHub Actions; deployed to Amazon EKS using Helm for scalable delivery
 

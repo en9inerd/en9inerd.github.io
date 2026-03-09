@@ -1,5 +1,5 @@
 - type: Programming Languages
-  tools: [JavaScript/TypeScript, Python, C, Bash]
+  tools: [JavaScript/TypeScript, Python, Go, C, Bash]
 
 - type: Frameworks
   tools: [Angular, NestJS, LoopBack, Express.js, FastAPI, Django]
@@ -11,7 +11,7 @@
   tools: [HTML, CSS, Tera, Liquid, XML]
 
 - type: Cloud & DevOps
-  tools: [AWS (EKS, EC2, S3, RDS, Lambda, etc.), Docker, Git, GitHub Actions, Helm]
+  tools: ["AWS (EKS, EC2, S3, RDS, Lambda, DynamoDB, etc.)", Docker, Kubernetes, GitHub Actions, Helm]
 
 - type: Tools & Other Tech
-  tools: [Neovim, Zola, Jekyll, LaTeX]
+  tools: [Git, Neovim, Zola, Jekyll, LaTeX]
