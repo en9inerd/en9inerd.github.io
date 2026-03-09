@@ -44,7 +44,7 @@ logo = "images/logo.webp"
 google_analytics = "G-XZRL66P63S"
 
 # Contact form script id that points to google macros (e.g. https://script.google.com/macros/s/<script-identifier>/exec)
-contact_form_script_id = "AKfycby7x6xohzq6X0KNiW04ZRhrAblqsKfmUIvzstK4UCXUk4RNh2pe1ClwTlZ8EEkgFwDU"
+contact_form_script_id = "AKfycbw1F-T0ACHkqskmbRYHGTYPg5tTfugrphrLmjsJ35QxFNAg2bB8mwEmIgUHZAQbp7K7"
 
 # Visitor notifier based on IFTTT + Webhooks. Sample here - /assets/js/monitor.js
 monitor = true
