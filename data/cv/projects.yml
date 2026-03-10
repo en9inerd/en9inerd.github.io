@@ -32,7 +32,7 @@
     text: GitHub Repo
     url: https://github.com/en9inerd/tgeraser
   start_date: 2019-03-01
-  end_date: 2019-03-01
+  end_date:
 
 - name: PlacerSA
   desc: Standard cell placer for global and detailed placement based on a modified simulated annealing algorithm for VLSI and FPGA design. Processes IBM-PLACE benchmarks in Bookshelf format; includes OpenGL visualization of placement progress.
