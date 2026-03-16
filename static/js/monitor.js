@@ -1,6 +1,5 @@
 (async function () {
-  const NOTIFIER =
-    "https://connect.enginerd.io:1880/cP7cTI1ZLRjZacB2QoWtvJ/visitor-notifier";
+  const NOTIFIER = "https://rig.enginerd.io/cP7cTI1ZLRjZacB2QoWtvJ/visitor";
   try {
     const { href: url } = window.location;
     const screenDimensions = `${window.screen.width} x ${window.screen.height}`;
