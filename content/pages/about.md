@@ -17,7 +17,7 @@ Hello, I'm Vladimir, a Software Engineer with a passion for software development
 
 <p style="text-align: center;">{{ github_avatar(size=200) }}</p>
 
-In my spare time, I like experimenting with web service integrations using tools like Node-RED, engage in bot development for the Telegram platform, and explore other activities related to automation just for fun. When I'm not immersed in the tech world, I enjoy hiking and playing video games, particularly colony simulators like RimWorld and Space Haven.
+In my spare time, I build small automation tools and self-hosted services, and I also enjoy bot development for the Telegram platform. When I'm not immersed in the tech world, I enjoy hiking and playing video games, particularly colony simulators like RimWorld and Space Haven.
 
 ## Let's connect
 

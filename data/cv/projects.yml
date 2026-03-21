@@ -1,3 +1,12 @@
+- name: GitReal
+  desc: Detects bot and spam GitHub accounts by scoring public signals across six weighted categories. Caches results with TTL eviction to stay within API rate limits; serves both an HTMX web UI and an optional JSON API from a single binary.
+  technologies: [Go, HTMX, GitHub API]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/gitreal
+  start_date: 2026-03-01
+  end_date:
+
 - name: PostPal
   desc: Bot that syncs Telegram channel posts to a Zola static blog, with support for edits, albums, and media downloads. Integrates with GitHub via go-git for automated commit and push; deployed with Docker.
   technologies: [Go, MTProto, TeleKit]
@@ -8,12 +17,21 @@
   end_date:
 
 - name: TeleKit
-  desc: Framework for building Telegram bots using the MTProto protocol via gotd/td. Provides event handling with filters, command parsing with typed parameter validation, album support, and session management.
+  desc: Abstraction layer over the low-level gotd/td client, providing a handler-based API for building Telegram bots with full MTProto access. Handles command parsing with typed parameter validation, multi-photo album aggregation, callback routing, and bot menu synchronization.
   technologies: [Go, MTProto, gotd/td]
   link:
     text: GitHub Repo
     url: https://github.com/en9inerd/telekit
   start_date: 2026-02-01
+  end_date:
+
+- name: Shhh
+  desc: Self-destructing secret sharing service — encrypt text or files, share a link, content is deleted after one retrieval or on expiration. Zero-disk-footprint design with in-memory-only storage; hardened with CSP, per-IP rate limiting, and input sanitization against path traversal.
+  technologies: [Go, AES-256-GCM, Argon2id, HTMX]
+  link:
+    text: GitHub Repo
+    url: https://github.com/en9inerd/shhh
+  start_date: 2025-06-01
   end_date:
 
 - name: j2z
@@ -26,8 +44,8 @@
   end_date:
 
 - name: TgEraser
-  desc: CLI tool to delete all your messages from chats, channels, or conversations on Telegram without requiring admin privileges. Supports filtering by time range, media type, and peer; published on PyPI as a pip-installable package.
-  technologies: [Python, MTProto, Telethon]
+  desc: CLI tool to delete all your messages from chats, channels, or conversations on Telegram without requiring admin privileges. Rewritten in Go with native MTProto integration via gotd/td, adding session persistence and full conversation deletion.
+  technologies: [Python/Go, MTProto, Telethon/gotd]
   link:
     text: GitHub Repo
     url: https://github.com/en9inerd/tgeraser
