@@ -26,7 +26,7 @@
   end_date:
 
 - name: Shhh
-  desc: Self-destructing secret sharing service — encrypt text or files, share a link, content is deleted after one retrieval or on expiration. Zero-disk-footprint design with in-memory-only storage; hardened with CSP, per-IP rate limiting, and input sanitization against path traversal.
+  desc: Self-destructing secret sharing service - encrypt text or files, share a link, content is deleted after one retrieval or on expiration. Zero-disk-footprint design with in-memory-only storage; hardened with CSP, per-IP rate limiting, and input sanitization against path traversal.
   technologies: [Go, AES-256-GCM, Argon2id, HTMX]
   link:
     text: GitHub Repo
